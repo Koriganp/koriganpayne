@@ -25,11 +25,13 @@
 			loves his Nikon D850 and has everything he needs to create the best pictures and quality. He uses Adobe Photoshop&reg;
 			and several notable plugins to design and edit the professional quality pictures he takes.</p>
 			<p>Jared doesn't really want to waste a lot of time trying to solve technical problems, he wants specific and to
-			the point. He is focused, organized, and knows what he is looking for. When the issue is something that he can't
-			complete himself, he wants someone that knows what they are doing.</p>
-			<p>He has a website, but doesn't think it is relevant to the clients he wants. He wants something that is up-to-date
+			the point when it comes to the answer. He is focused, organized, and knows what he is looking for. When the issue
+			is something that he can't complete himself, he wants someone that knows what they are doing.</p>
+			<p>He has a website, but doesn't think it is relevant to the clients he wants to reach. He wants something that is up-to-date
 			and gives him the image of being "mainstream". He is looking for something that matches his personality, style,
-			and no-nonsense attitude.</p>
+			and no-nonsense attitude. He is looking for a web-developer who has the same mindset as him and advertises
+			themselves as knowledgeable. He wants the first impression of the site to meet those requirements as well as displays
+			an artistic feel.</p>
 		</main>
 	</body>
 </html>
