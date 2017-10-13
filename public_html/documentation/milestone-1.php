@@ -16,6 +16,8 @@
 		<h2>Goal</h2>
 		<p>To attract potential clients and employers to myself and my work.</p>
 		<h1>Persona</h1>
+		<img src="../assets/images/photo.jpg" alt="Image of Jared Mason"/>
+
 
 
 	</body>
