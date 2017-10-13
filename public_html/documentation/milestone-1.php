@@ -21,9 +21,15 @@
 			<h1>Persona</h1>
 			<img id="jared" src="../assets/images/photo.jpg" alt="Image of Jared Mason"/>
 			<h2 id="about">Jared Mason</h2>
-			<p>Jared is a 32 year old entrepreneur who has started his own photography business. He loves his Nikon D850
-			and has everything he needs to create the best pictures and quality. </p>
-			<p>He has a website, but doesn't think it is relevant to the clients he wants. </p>
+			<p>Mr. Mason is a 32 year old husband, father, and entrepreneur who has started his own photography business. He
+			loves his Nikon D850 and has everything he needs to create the best pictures and quality. He uses Adobe Photoshop&reg;
+			and several notable plugins to design and edit the professional quality pictures he takes.</p>
+			<p>Jared doesn't really want to waste a lot of time trying to solve technical problems, he wants specific and to
+			the point. He is focused, organized, and knows what he is looking for. When the issue is something that he can't
+			complete himself, he wants someone that knows what they are doing.</p>
+			<p>He has a website, but doesn't think it is relevant to the clients he wants. He wants something that is up-to-date
+			and gives him the image of being "mainstream". He is looking for something that matches his personality, style,
+			and no-nonsense attitude.</p>
 		</main>
 	</body>
 </html>
