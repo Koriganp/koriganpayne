@@ -12,12 +12,13 @@
 		<main>
 			<h1>Purpose, Audience, Goal</h1>
 			<h2>Purpose</h2>
-			<p>To present myself in a competent and professional manner to prospective clients and employers.</p>
+			<p class="story">To present myself in a competent and professional manner to prospective clients and employers.</p>
 			<h2>Audience</h2>
-			<p>The intended audience of this site is for employment reasons, either to give tangible evidence of my work to
+			<p class="story">The intended audience of this site is for employment reasons, either to give tangible evidence of my work to
 			prospective clients or let employers see the quality/content of my code.</p>
 			<h2>Goal</h2>
-			<p>To attract potential clients and employers to myself and my work.</p>
+			<p class="story">To attract potential clients and employers to myself and my work.</p>
+
 			<h1>Persona</h1>
 			<img id="jared" src="../assets/images/photo.jpg" alt="Image of Jared Mason"/>
 			<h2 id="about">Jared Mason</h2>
@@ -32,6 +33,18 @@
 			and no-nonsense attitude. He is looking for a web-developer who has the same mindset as him and advertises
 			themselves as knowledgeable. He wants the first impression of the site to meet those requirements as well as displays
 			an artistic feel.</p>
+			<h2>User Tech</h2>
+			<p class="story">Jared has a newer HP laptop and a Samsung Galaxy S7.</p>
+			<h2>Frustrations</h2>
+			<div class="centerList">
+				<ul>
+					<li>Wasting time</li>
+					<li>Lack of imagination</li>
+					<li>Inability to communicate</li>
+				</ul>
+				<h2>User Story</h2>
+				<p class="story">A casual internet user looking for a web designer.</p>
+			</div>
 		</main>
 	</body>
 </html>

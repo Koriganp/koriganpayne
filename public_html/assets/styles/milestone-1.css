@@ -19,7 +19,32 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
 /*center main info about Jared*/
 #about {
+	text-align: center;
+}
+
+p {
+	padding: 15px 100px;
+	text-align: justify;
+}
+
+/*Added <div> tag to allow centering of child elements*/
+.centerList {
+	text-align: center;
+}
+
+/*Centered list*/
+ul {
+	display: inline-block;
+	text-align: left;
+}
+
+.story {
 	text-align: center;
 }
