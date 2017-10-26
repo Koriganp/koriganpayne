@@ -20,11 +20,3 @@ img[alt="Wireframe for desktop"] {
 .resize {
 	width: 44%;
 }
-
-h2 {
-	text-align: center;
-}
-
-h2:first-child {
-	margin-left: 4.0rem;
-}
