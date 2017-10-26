@@ -13,7 +13,7 @@
 		<main>
 			<h1><strong>Content Strategy</strong></h1>
 			<h1><strong>Wireframes</strong></h1>
-			<img class="resize" id="desktop" src="../assets/images/pwp.jpg" alt="Wireframe for desktop"/>
+			<img class="resize" src="../assets/images/pwp.jpg" alt="Wireframe for desktop"/>
 			<img class="resize" src="../assets/images/pwp-mobile.jpg" alt="Wireframe for mobile"/>
 		</main>
 	</body>

@@ -11,7 +11,7 @@ h1 {
 	text-align: center;
 }
 
-#desktop {
+img[alt="Wireframe for desktop"] {
 	margin-left: 4.0rem;
 	margin-right: 2.0rem;
 	float: left;
