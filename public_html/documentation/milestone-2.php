@@ -2,6 +2,7 @@
 <html lang="en-US">
 	<head>
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial scale=1, shrink-to-fit=no"/>
 		<meta name="author" content="Korigan Payne"/>
 		<meta name="description" content="direction of the personal website project"/>
 		<link href="../assets/styles/milestone-2.css" rel="stylesheet" type="text/css"/>
