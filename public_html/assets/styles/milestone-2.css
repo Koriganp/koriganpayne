@@ -20,3 +20,16 @@ img[alt="Wireframe for desktop"] {
 .resize {
 	width: 44%;
 }
+
+.column {
+	float: left;
+	display: inline-block;
+}
+
+.column.left {
+	width: 50%;
+}
+
+.column.right {
+	width: 50%;
+}
