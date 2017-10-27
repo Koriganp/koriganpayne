@@ -26,10 +26,4 @@ img[alt="Wireframe for desktop"] {
 	display: inline-block;
 }
 
-.column.left {
-	width: 50%;
-}
 
-.column.right {
-	width: 50%;
-}

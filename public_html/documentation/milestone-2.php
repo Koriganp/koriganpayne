@@ -13,13 +13,15 @@
 		<main>
 			<h1><strong>Content Strategy</strong></h1>
 			<h1><strong>Wireframes</strong></h1>
-			<div class="column left">
-				<h2>Desktop</h2>
-				<img class="resize" src="../assets/images/pwp.jpg" alt="Wireframe for desktop"/>
-			</div>
-			<div class="column right">
-				<h2>Mobile</h2>
-				<img class="resize" src="../assets/images/pwp-mobile.jpg" alt="Wireframe for mobile"/>
+			<div class="container">
+				<div class="left">
+					<h2>Desktop</h2>
+					<img class="resize" src="../assets/images/pwp.jpg" alt="Wireframe for desktop"/>
+				</div>
+				<div class="right">
+					<h2>Mobile</h2>
+					<img class="resize" src="../assets/images/pwp-mobile.jpg" alt="Wireframe for mobile"/>
+				</div>
 			</div>
 		</main>
 	</body>
