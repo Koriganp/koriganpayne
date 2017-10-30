@@ -16,13 +16,15 @@
 			<p>Between the scrolling bars will be the actual content of the page, including information about me, my skills and experience, and images that I have taken with my Nikon (photoshopped to perfection!) to include my ability to capture just what a potential client is seeking and provide a reason for them to choose me.</p>
 			<p>The footer of the page will have links to my GitHub account, my Linkdin profile, my Twitter account, and my Stack Overflow, as well as a link to a contact page that will have an email link, a contact phone number, and my PO Box.</p>
 			<h1><strong>Wireframes</strong></h1>
-			<div class="center">
-				<h2>Desktop</h2>
-				<img class="resize" src="../assets/images/pwp.jpg" alt="Wireframe for desktop"/>
-			</div>
-			<div class="center">
-				<h2>Mobile</h2>
-				<img class="resize" src="../assets/images/pwp-mobile.jpg" alt="Wireframe for mobile"/>
+			<div class="container">
+				<div class="column">
+					<h2>Desktop</h2>
+					<img class="resize center" src="../assets/images/pwp.jpg" alt="Wireframe for desktop"/>
+				</div>
+				<div class="column">
+					<h2>Mobile</h2>
+					<img class="resize center" src="../assets/images/pwp-mobile.jpg" alt="Wireframe for mobile"/>
+				</div>
 			</div>
 		</main>
 	</body>
