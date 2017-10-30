@@ -11,6 +11,10 @@ h1 {
 	text-align: center;
 }
 
+p {
+	padding: 2rem 20rem;
+}
+
 img[alt="Wireframe for desktop"] {
 	margin-left: 4.0rem;
 	margin-right: 2.0rem;
@@ -21,8 +25,9 @@ img[alt="Wireframe for desktop"] {
 	width: 44%;
 }
 
-.column {
-	float: left;
+/*Center headings and subheadings in columns*/
+.center {
+	text-align: center;
 	display: inline-block;
 }
 
