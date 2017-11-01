@@ -11,3 +11,25 @@ Your persona is a photographer, so I'm wondering if this a niche market you'd li
 Nice CSS too!
 
 Your project has been set up correctly and your code looks great. Your Milestone 1 passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin on [Milestone 2a](https://bootcamp-coders.cnm.edu/projects/personal/milestone-two/).
+
+## Milestone 2&alpha; Feedback
+Your content strategy is good, but I have some concerns regarding the accuracy of the wireframes. I also want to caution you that parallax should only be enabled on desktop/laptop widths as it is likely to cause issues on mobile. This is generally pretty easy to do with some simple jQuery.
+
+If Axure is proving difficult to use, I would opt for [Mockflow](https://mockflow.com/) instead. You may find better results with this tool, and it provides appropriately scaled templates for desktop and mobile devices. This can be a big help. The scale of these wireframes isn't accurate:
+
+- The general proportions (aspect ratios) between mobile and desktop aren't right. Mobile is tall and narrow, desktop is wide. At this level only a general approximation is needed, but these are pretty far off. That's where Mockflow's mobile and browser templates can be a big help.
+- The size and scale of the text and UI components is much too small.
+- Having text span the width of a desktop or laptop screen is generally considered too long of a line length for comfortable reading. You'll lose engagement fast.
+- Icons are looking jumbled down at the bottom on the mobile wireframe.
+- Where do you plan to feature the contact form? This wasn't addressed in the content strategy.
+
+Think of the wireframes as a "road map" for your front end development. The more accurate and complete they are the better your development phase will go. I recommend that you take another shot at these before you begin development.
+
+If you anticipate a longer scroll on your page, I might consider a navigation solution to help users easily navigate your site.
+
+Parallax scroll is generally JavaScript driven, and there are many libraries out there of widely variable quality. One you might want to consider using is the [Rellax.js](https://dixonandmoe.com/rellax/) library. It's regularly maintained and of good quality.
+
+Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Circle back with me about your wireframes if you're having any issues. If you're going to recreate a set, I'll be happy to bump your grade to Tier III if you have a new set complete by Monday 10/6/17.
+
+### Edits &amp; Suggestions
+- Isolate the CSS for this Milestone documentation from the CSS file you'll use for your project.  
