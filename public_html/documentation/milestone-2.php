@@ -19,11 +19,11 @@
 			<div class="container">
 				<div class="column">
 					<h2>Desktop</h2>
-					<img class="resize center" src="../assets/images/pwp.jpg" alt="Wireframe for desktop"/>
+					<img class="resize center" src="../assets/images/desktop-wireframe.png" alt="Wireframe for desktop"/>
 				</div>
 				<div class="column">
 					<h2>Mobile</h2>
-					<img class="resize center" src="../assets/images/pwp-mobile.jpg" alt="Wireframe for mobile"/>
+					<img class="resize center" src="../assets/images/mobile-wireframe.png" alt="Wireframe for mobile"/>
 				</div>
 			</div>
 		</main>
