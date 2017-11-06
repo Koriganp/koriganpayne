@@ -33,3 +33,10 @@ Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/p
 
 ### Edits &amp; Suggestions
 - Isolate the CSS for this Milestone documentation from the CSS file you'll use for your project.  
+
+### 2a Feedback Update
+These new wireframes are much more clear - which should provide you with a better guide for your development. You're allocating quite a bit of "negative space" in your layout design - I'm really looking forward to seeing how this will appear. A couple of things to be aware of:
+- For a long scrolling page - it may help the user to have some kind of navigation option. You don't have to use bootstrap's. There are some cool options out there like this: https://codyhouse.co/gem/vertical-fixed-navigation/
+- Mobile browsers have varying support of CSS `background-attachment: fixed;`. This could affect your design plans on iOS and Chrome for Android. See Notes 2, 4 here: https://caniuse.com/#search=background-attachment
+
+Your score has been bumped to [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development on your PWP!
