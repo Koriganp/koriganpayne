@@ -56,5 +56,61 @@
 				</div>
 			</div>
 		</section>
+		<section>
+			<div class="jumbotron bg-secondary">
+			</div>
+		</section>
+		<img src=""/>
+		<section>
+			<div class="jumbotron bg-secondary">
+			</div>
+		</section>
+		<section class="p-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-9">
+						<p>You can do anything your heart can imagine. Trees grow however makes them happy. Put your feelings into it, your heart, it's your world. I thought today we would make a happy little stream that's just running through the woods here. Only eight colors that you need. Anytime you learn something your time and energy are not wasted. Isn't that fantastic that you can create an almighty tree that fast?</p>
+						<p>In your world you have total and absolute power. That's a son of a gun of a cloud. Nice little clouds playing around in the sky. And that's when it becomes fun - you don't have to spend your time thinking about what's happening - you just let it happen. Paint anything you want on the canvas. Create your own world. We want to use a lot pressure while using no pressure at all.</p>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<img class="mw-100 mt-4" src="assets/images/" alt="Image of"/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="jumbotron bg-secondary">
+			</div>
+		</section>
+		<section class="p-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-3">
+						<img class="mw-100 mt-4" src="assets/images/" alt="Image of"/>
+						<div class="col-md-6 col-lg-9">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="p-4 bg-dark text-light text-center">
+			<div class="navbar navbar-default bg-secondary text-dark">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link1</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link2</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link3</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link4</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>
