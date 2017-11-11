@@ -20,22 +20,41 @@
 	</head>
 	<body>
 		<!-- navigation bar -->
+		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark text-light" role="navigation">
+			<a class="navbar-brand" href="index.php">Korigan Payne</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.php">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.php">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<img src=""/>
 		<header>
-			<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark text-light" role="navigation">
-				<a class="navbar-brand" href="index.php">Korigan Payne</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span></button>
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="index.php">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.php">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
+			<div class="jumbotron bg-secondary">
+				<h1 class="display-1 font-weight-bold text-center">Korigan Payne</h1>
+				<p class="display-4 lead text-center">Web Developer</p>
+			</div>
 		</header>
+		<section class="p-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-3">
+						<img class="mw-100 mt-4" src="assets/images/" alt="Image of Korigan Payne"/>
+					</div>
+					<div class="col-md-6 col-lg-9">
+						<p>You can do anything your heart can imagine. Trees grow however makes them happy. Put your feelings into it, your heart, it's your world. I thought today we would make a happy little stream that's just running through the woods here. Only eight colors that you need. Anytime you learn something your time and energy are not wasted. Isn't that fantastic that you can create an almighty tree that fast?</p>
+						<p>In your world you have total and absolute power. That's a son of a gun of a cloud. Nice little clouds playing around in the sky. And that's when it becomes fun - you don't have to spend your time thinking about what's happening - you just let it happen. Paint anything you want on the canvas. Create your own world. We want to use a lot pressure while using no pressure at all.</p>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
