@@ -94,20 +94,20 @@
 				</div>
 			</div>
 		</section>
-		<footer class="p-4 bg-dark text-light text-center">
-			<div class="navbar navbar-default bg-secondary text-dark">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link1</a>
+		<footer>
+			<div class="bg-dark text-dark nav justify-content-center">
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<a href="#"><img src="assets/images/github.png" alt="Github"/></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link2</a>
+					<li class="list-inline-item">
+						<a href="#"><img src="assets/images/linkedin.png" alt="LinkedIn"/></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link3</a>
+					<li class="list-inline-item">
+						<a href="#"><img src="assets/images/stack-overflow.png" alt="Stack OverFlow"/></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link4</a>
+					<li class="list-inline-item">
+						<a href="#"><img src="assets/images/twitter.png" alt="Twitter"/></a>
 					</li>
 				</ul>
 			</div>
