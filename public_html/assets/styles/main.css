@@ -1,0 +1,12 @@
+/*Change font*/
+body {
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+	position: relative;
+	min-height: 100%;
+}
+
+h1 .web{
+	font-size: 3em;
+}
