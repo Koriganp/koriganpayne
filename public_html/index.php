@@ -24,7 +24,7 @@
 	</head>
 	<body>
 		<!-- navigation bar -->
-		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark text-light" role="navigation">
+		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" role="navigation">
 			<a class="navbar-brand" href="index.php">Korigan Payne</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -41,13 +41,13 @@
 			</div>
 		</nav>
 		<video class="mb-0 w-100" autoplay loop muted>
-			<source src="assets/videos/hack-code.mp4"/>
-			<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/hack-code.mp4">link</a> to the video</p>
+			<source src="assets/videos/hack-code.mov"/>
+			<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/hack-code.mov">link</a> to the video</p>
 		</video>
 		<header>
-			<div class="jumbotron bg-secondary mt-0">
-				<h1 class="display-3 text-center">Korigan Payne</h1>
-				<p class="lead text-center">Web Developer</p>
+			<div class="jumbotron bg-dark mt-0">
+				<h1 class="display-3 text-center lime">Korigan_Payne</h1>
+				<p class="lead text-center lime">Web Developer</p>
 			</div>
 		</header>
 		<section class="p-5">
@@ -64,12 +64,15 @@
 			</div>
 		</section>
 		<section>
-			<div class="jumbotron bg-secondary">
+			<div class="jumbotron bg-dark mb-0">
 			</div>
 		</section>
-		<img src=""/>
+		<video class="mt-0 mb-0 w-100" autoplay loop muted>
+			<source src="assets/videos/ethernet.mov"/>
+			<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
+		</video>
 		<section>
-			<div class="jumbotron bg-secondary">
+			<div class="jumbotron bg-dark mt-0">
 			</div>
 		</section>
 		<section class="p-5">
@@ -86,7 +89,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="jumbotron bg-secondary">
+			<div class="jumbotron bg-dark">
 			</div>
 		</section>
 		<section class="p-5">
