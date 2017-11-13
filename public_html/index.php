@@ -46,8 +46,8 @@
 		</video>
 		<header>
 			<div class="jumbotron bg-dark mt-0">
-				<h1 class="display-3 text-center lime">Korigan_Payne</h1>
-				<p class="lead text-center lime">Web Developer</p>
+				<h1 class="display-3 lime text-center">Korigan Payne</h1>
+				<p class="lead lime text-center">Web Developer</p>
 			</div>
 		</header>
 		<section class="p-5">
