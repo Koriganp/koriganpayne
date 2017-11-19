@@ -52,4 +52,9 @@
 				</ul>
 			</div>
 		</nav>
+		<footer>
+			<div class="bg-dark text-light nav justify-content-center pt-3">
+				<p>2017 Korigan Payne</p>
+			</div>
+		</footer>
 	</body>

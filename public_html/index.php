@@ -24,7 +24,7 @@
 	</head>
 	<body>
 		<!-- navigation bar -->
-		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" role="navigation">
+		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" id="top-of-page" role="navigation">
 			<a class="navbar-brand" href="index.php">Korigan Payne</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -117,8 +117,8 @@
 			</div>
 		</section>
 		<footer>
-			<div class="bg-dark text-dark nav justify-content-center pt-3">
-
+			<div class="bg-dark text-light nav justify-content-center pt-3">
+				<p>2017 Korigan Payne</p>
 			</div>
 		</footer>
 	</body>
