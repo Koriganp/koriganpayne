@@ -32,19 +32,19 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="https://github.com/Koriganp" target="_blank" class="nav-link"><img class="w-25 mx-5" src="assets/images/github.png" data-toggle="tooltip" data-placement="bottom" title="Link to My Github" alt="Github"/></a>
+						<a href="https://github.com/Koriganp" target="_blank" class="nav-link"><img class="w-25" src="assets/images/github.png" data-toggle="tooltip" data-placement="bottom" title="My Github" alt="Github"/></a>
 					</li>
 					<li class="nav-item">
-						<a href="https://www.linkedin.com/in/korigan-payne-0570066b" target="_blank" class="nav-link"><img class="w-25 mx-5" src="assets/images/linkedin.png" data-toggle="tooltip" data-placement="bottom" title="Link to My LinkedIn" alt="LinkedIn"/></a>
+						<a href="https://www.linkedin.com/in/korigan-payne-0570066b" target="_blank" class="nav-link"><img class="w-25" src="assets/images/linkedin.png" data-toggle="tooltip" data-placement="bottom" title="My LinkedIn" alt="LinkedIn"/></a>
 					</li>
 					<li class="nav-item">
-						<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link"><img class="w-25 mx-5" src="assets/images/twitter.png" data-toggle="tooltip" data-placement="bottom" title="Link to My Twitter" alt="Twitter"/></a>
+						<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link"><img class="w-25" src="assets/images/twitter.png" data-toggle="tooltip" data-placement="bottom" title="My Twitter" alt="Twitter"/></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="index.php">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="about.php">About</a>
+						<a class="nav-link" href="portfolio.php">Portfolio</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="contact.php">Contact</a>

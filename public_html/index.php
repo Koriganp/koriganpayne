@@ -32,19 +32,19 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="https://github.com/Koriganp" target="_blank" class="nav-link"><img class="w-25 mx-5" src="assets/images/github.png" data-toggle="tooltip" data-placement="bottom" title="Link to My Github" alt="Github"/></a>
+						<a href="https://github.com/Koriganp" target="_blank" class="nav-link"><img class="w-25" src="assets/images/github.png" data-toggle="tooltip" data-placement="bottom" title="My Github" alt="Github"/></a>
 					</li>
 					<li class="nav-item">
-						<a href="https://www.linkedin.com/in/korigan-payne-0570066b" target="_blank" class="nav-link"><img class="w-25 mx-5" src="assets/images/linkedin.png" data-toggle="tooltip" data-placement="bottom" title="Link to My LinkedIn" alt="LinkedIn"/></a>
+						<a href="https://www.linkedin.com/in/korigan-payne-0570066b" target="_blank" class="nav-link"><img class="w-25" src="assets/images/linkedin.png" data-toggle="tooltip" data-placement="bottom" title="My LinkedIn" alt="LinkedIn"/></a>
 					</li>
 					<li class="nav-item">
-						<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link"><img class="w-25 mx-5" src="assets/images/twitter.png" data-toggle="tooltip" data-placement="bottom" title="Link to My Twitter" alt="Twitter"/></a>
+						<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link"><img class="w-25" src="assets/images/twitter.png" data-toggle="tooltip" data-placement="bottom" title="My Twitter" alt="Twitter"/></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="index.php">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="about.php">About</a>
+						<a class="nav-link" href="portfolio.php">Portfolio</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="contact.php">Contact</a>
@@ -69,8 +69,8 @@
 						<img class="mw-100 mt-4" src="assets/images/" alt="Image of Korigan Payne"/>
 					</div>
 					<div class="col-md-6 col-lg-9">
-						<p class="">You can do anything your heart can imagine. Trees grow however makes them happy. Put your feelings into it, your heart, it's your world. I thought today we would make a happy little stream that's just running through the woods here. Only eight colors that you need. Anytime you learn something your time and energy are not wasted. Isn't that fantastic that you can create an almighty tree that fast?</p>
-						<p class="">In your world you have total and absolute power. That's a son of a gun of a cloud. Nice little clouds playing around in the sky. And that's when it becomes fun - you don't have to spend your time thinking about what's happening - you just let it happen. Paint anything you want on the canvas. Create your own world. We want to use a lot pressure while using no pressure at all.</p>
+						<p>You can do anything your heart can imagine. Trees grow however makes them happy. Put your feelings into it, your heart, it's your world. I thought today we would make a happy little stream that's just running through the woods here. Only eight colors that you need. Anytime you learn something your time and energy are not wasted. Isn't that fantastic that you can create an almighty tree that fast?</p>
+						<p>In your world you have total and absolute power. That's a son of a gun of a cloud. Nice little clouds playing around in the sky. And that's when it becomes fun - you don't have to spend your time thinking about what's happening - you just let it happen. Paint anything you want on the canvas. Create your own world. We want to use a lot pressure while using no pressure at all.</p>
 					</div>
 				</div>
 			</div>
@@ -91,8 +91,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-9">
-						<p class="raleway">You can do anything your heart can imagine. Trees grow however makes them happy. Put your feelings into it, your heart, it's your world. I thought today we would make a happy little stream that's just running through the woods here. Only eight colors that you need. Anytime you learn something your time and energy are not wasted. Isn't that fantastic that you can create an almighty tree that fast?</p>
-						<p class="raleway">In your world you have total and absolute power. That's a son of a gun of a cloud. Nice little clouds playing around in the sky. And that's when it becomes fun - you don't have to spend your time thinking about what's happening - you just let it happen. Paint anything you want on the canvas. Create your own world. We want to use a lot pressure while using no pressure at all.</p>
+						<p>You can do anything your heart can imagine. Trees grow however makes them happy. Put your feelings into it, your heart, it's your world. I thought today we would make a happy little stream that's just running through the woods here. Only eight colors that you need. Anytime you learn something your time and energy are not wasted. Isn't that fantastic that you can create an almighty tree that fast?</p>
+						<p>In your world you have total and absolute power. That's a son of a gun of a cloud. Nice little clouds playing around in the sky. And that's when it becomes fun - you don't have to spend your time thinking about what's happening - you just let it happen. Paint anything you want on the canvas. Create your own world. We want to use a lot pressure while using no pressure at all.</p>
 					</div>
 					<div class="col-md-6 col-lg-3">
 						<img class="mw-100 mt-4" src="assets/images/" alt="Image of"/>
@@ -118,14 +118,7 @@
 		</section>
 		<footer>
 			<div class="bg-dark text-dark nav justify-content-center pt-3">
-				<ul class="list-inline">
 
-
-					<li class="list-inline-item">
-						<a href="https://stackoverflow.com/users/8777283/korigan-payne" target="_blank"><img class="w-25 mx-5" src="assets/images/stack-overflow.png" data-toggle="tooltip" data-placement="top" title="Link to My Stack Overflow" alt="Stack OverFlow"/></a>
-					</li>
-
-				</ul>
 			</div>
 		</footer>
 	</body>

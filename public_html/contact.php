@@ -21,14 +21,27 @@
 	<body>
 		<!-- navigation bar -->
 		<header>
-			<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark text-light" role="navigation">
+			<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" role="navigation">
 				<a class="navbar-brand" href="index.php">Korigan Payne</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span></button>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
+							<a href="https://github.com/Koriganp" target="_blank" class="nav-link"><img class="w-25" src="assets/images/github.png" data-toggle="tooltip" data-placement="bottom" title="My Github" alt="Github"/></a>
+						</li>
+						<li class="nav-item">
+							<a href="https://www.linkedin.com/in/korigan-payne-0570066b" target="_blank" class="nav-link"><img class="w-25" src="assets/images/linkedin.png" data-toggle="tooltip" data-placement="bottom" title="My LinkedIn" alt="LinkedIn"/></a>
+						</li>
+						<li class="nav-item">
+							<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link"><img class="w-25" src="assets/images/twitter.png" data-toggle="tooltip" data-placement="bottom" title="My Twitter" alt="Twitter"/></a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="index.php">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.php">Portfolio</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact.php">Contact</a>
