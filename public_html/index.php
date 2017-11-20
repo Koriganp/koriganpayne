@@ -60,7 +60,7 @@
 
 		<!-- First video -->
 
-		<div class="parallax-container">
+		<div class="rellax" data-rellax-speed="-4" data-rellax-zindex="-1">
 			<div class="mt-0">
 				<video class="my-0 w-100 video-insert" autoplay loop muted>
 					<source src="assets/videos/hack-code.mov"/>
@@ -104,7 +104,7 @@
 
 		<!-- Second video -->
 
-		<div class="parallax-container my-0">
+		<div class="my-0 rellax" data-rellax-speed="-4"  data-rellax-zindex="-1">
 			<video class="my-0 w-100 video-insert" autoplay loop muted>
 				<source src="assets/videos/ethernet.mov"/>
 				<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
@@ -158,6 +158,6 @@
 				<p>2017 Korigan Payne</p>
 			</div>
 		</footer>
-		<script src="../node_modules/rellax/rellax.js"></script>
+		<script src="js/rellax.min.js"></script>
 	</body>
 </html>
