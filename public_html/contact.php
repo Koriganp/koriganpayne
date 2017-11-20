@@ -3,7 +3,7 @@
 	<head>
 		<!-- Metadata -->
 		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, user-scalable = no, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0"/>
+		<meta name="viewport" content="width = device-width, user-scalable = no, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 		<meta title="author" content="Korigan Payne"/>
 		<meta name="description" content="Personal website featuring skills, web-design, and contact information"/>
@@ -22,7 +22,7 @@
 
 		<title>Korigan Payne</title>
 	</head>
-	<body>
+	<body class="parallax">
 		<!-- navigation bar -->
 		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" id="top-of-page" role="navigation">
 			<a class="navbar-brand" href="index.php">Korigan Payne</a>
@@ -44,8 +44,11 @@
 						<a class="nav-link" href="index.php">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="portfolio.php">Portfolio</a>
+						<a class="nav-link" href="assets/docs/resume.pdf" target="_blank">Resume</a>
 					</li>
+					<!--					<li class="nav-item">-->
+					<!--						<a class="nav-link" href="portfolio.php">Portfolio</a>-->
+					<!--					</li>-->
 					<li class="nav-item">
 						<a class="nav-link" href="contact.php">Contact</a>
 					</li>

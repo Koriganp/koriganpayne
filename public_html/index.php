@@ -3,7 +3,7 @@
 	<head>
 		<!-- Metadata -->
 		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, user-scalable = no, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0"/>
+		<meta name="viewport" content="width = device-width, user-scalable = no, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 		<meta title="author" content="Korigan Payne"/>
 		<meta name="description" content="Personal website featuring skills, web-design, and contact information"/>
@@ -22,7 +22,7 @@
 
 		<title>Korigan Payne</title>
 	</head>
-	<body>
+	<body class="parallax">
 		<!-- navigation bar -->
 		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" id="top-of-page" role="navigation">
 			<a class="navbar-brand" href="index.php">Korigan Payne</a>
@@ -46,9 +46,9 @@
 					<li class="nav-item">
 						<a class="nav-link" href="assets/docs/resume.pdf" target="_blank">Resume</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="portfolio.php">Portfolio</a>
-					</li>
+<!--					<li class="nav-item">-->
+<!--						<a class="nav-link" href="portfolio.php">Portfolio</a>-->
+<!--					</li>-->
 					<li class="nav-item">
 						<a class="nav-link" href="contact.php">Contact</a>
 					</li>
@@ -56,6 +56,12 @@
 			</div>
 		</nav>
 		<div class="parallax-container">
+			<section class="my-0">
+				<video class="my-0 w-100" autoplay loop muted>
+					<source src="assets/videos/ethernet.mov"/>
+					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
+				</video>
+			</section>
 		</div>
 		<header class="content">
 			<div class="jumbotron jumbotron-fluid bg-dark m-0">
@@ -81,22 +87,18 @@
 			<div class="jumbotron jumbotron-fluid bg-dark mb-0">
 			</div>
 		</section>
-		<section>
-			<video class="mt-0 mb-0 w-100" autoplay loop muted>
-				<source src="assets/videos/ethernet.mov"/>
-				<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
-			</video>
-		</section>
-		<section>
-			<div class="jumbotron jumbotron-fluid bg-dark mt-0">
+		<section class="my-0">
+			<div class="jumbotron jumbotron-fluid bg-dark">
 			</div>
 		</section>
 		<section class="p-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<p>If you need custom images for your website showcasing features, people, or a beautiful shot of your physical location, not only am I a web developer, but I am also a photographer. I do things differently than other photographers might. Beyond simply taking a nice picture, I take a step back to observe and capture all the emotion and unique details that will make the images on your site <strong>STAND OUT</strong> from other sites in a similar market.</p>
-						<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of you custom image and only use professional equipment. </p>
+						<p>If you need custom images for your website showcasing features, people, or a beautiful shot of your physical location, not only am I a web developer, but I am also a photographer. I do things differently than other photographers might. Beyond simply taking a nice picture, I take a step back to observe and capture all the emotion and unique details that will make the images on <em>your</em> site</p>
+						<p class="lime display-4 text-center">STAND OUT</p>
+						<p class="text-center">from other sites in a similar market.</p>
+						<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of your custom image and the ability to transform an ordinary image into an extraordinary piece of art. I only use professional equipment and this benefit is included with the design of your website when you <a href="contact.php" target="_blank">hire me!</a></p>
 					</div>
 					<div class="row">
 						<div class="col-md-6 col-lg-3">
@@ -116,22 +118,10 @@
 			</div>
 		</section>
 		<section>
-			<div class="jumbotron jumbotron-fluid bg-dark">
+			<div class="jumbotron jumbotron-fluid bg-dark mb-0">
 			</div>
 		</section>
-		<section class="p-5">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-lg-3">
-						<img class="mw-100 mt-4" src="assets/images/" alt="Image of"/>
-						<div class="col-md-6 col-lg-9">
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<footer>
+		<footer class="mt-0">
 			<div class="bg-dark text-light nav justify-content-center pt-3">
 				<p>2017 Korigan Payne</p>
 			</div>
