@@ -88,24 +88,29 @@
 			</video>
 		</section>
 		<section>
-			<video class="mt-0 mb-0 w-100" autoplay loop muted>
-				<source src="assets/videos/hack-code.mov" type="video/mov"/>
-				<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/hack-code.mov">link</a> to the video</p>
-			</video>
-		</section>
-		<section>
 			<div class="jumbotron jumbotron-fluid bg-dark mt-0">
 			</div>
 		</section>
 		<section class="p-5">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-lg-9">
-						<p>You can do anything your heart can imagine. Trees grow however makes them happy. Put your feelings into it, your heart, it's your world. I thought today we would make a happy little stream that's just running through the woods here. Only eight colors that you need. Anytime you learn something your time and energy are not wasted. Isn't that fantastic that you can create an almighty tree that fast?</p>
-						<p>In your world you have total and absolute power. That's a son of a gun of a cloud. Nice little clouds playing around in the sky. And that's when it becomes fun - you don't have to spend your time thinking about what's happening - you just let it happen. Paint anything you want on the canvas. Create your own world. We want to use a lot pressure while using no pressure at all.</p>
+					<div class="col-12">
+						<p>If you need custom images for your website showcasing features, people, or a beautiful shot of your physical location, not only am I a web developer, but I am also a photographer. I do things differently than other photographers might. Beyond simply taking a nice picture, I take a step back to observe and capture all the emotion and unique details that will make the images on your site <strong>STAND OUT</strong> from other sites in a similar market.</p>
+						<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of you custom image and only use professional equipment. </p>
 					</div>
-					<div class="col-md-6 col-lg-3">
-						<img class="mw-100 mt-4" src="assets/images/" alt="Image of"/>
+					<div class="row">
+						<div class="col-md-6 col-lg-3">
+							<img class="mw-100 mt-4" src="assets/images/snake.jpg" alt="Image of Rattlesnake"/>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<img class="mw-100 mt-4" src="assets/images/aspen.jpg" alt="Image of Aspen Trees"/>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<img class="mw-100 mt-4" src="assets/images/cactus.jpg" alt="Image of Cactus"/>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<img class="mw-100 mt-4" src="assets/images/bastian.jpg" alt="Image of my son and father-in-law"/>
+						</div>
 					</div>
 				</div>
 			</div>
