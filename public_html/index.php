@@ -56,10 +56,10 @@
 			</div>
 		</nav>
 		<div class="parallax-container">
-			<section class="my-0">
-				<video class="my-0 w-100" autoplay loop muted>
-					<source src="assets/videos/ethernet.mov"/>
-					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
+			<section class="mt-0 mb-5">
+				<video class="my-0 w-100 video-one" autoplay loop muted>
+					<source src="assets/videos/hack-code.mov"/>
+					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/hack-code.mov">link</a> to the video</p>
 				</video>
 			</section>
 		</div>
@@ -83,10 +83,18 @@
 				</div>
 			</div>
 		</section>
-<!--		<section>-->
-<!--			<div class="jumbotron jumbotron-fluid bg-dark mb-0 p-5">-->
-<!--			</div>-->
-<!--		</section>-->
+		<section class="my-0">
+			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
+			</div>
+		</section>
+		<div class="parallax-container">
+			<section class="my-0">
+								<video class="my-0 w-100 video-two" autoplay loop muted>
+					<source src="assets/videos/ethernet.mov"/>
+					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
+				</video>
+			</section>
+		</div>
 		<section class="my-0">
 			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
 			</div>
@@ -101,16 +109,16 @@
 						<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of your custom image and the ability to transform an ordinary image into an extraordinary piece of art. I only use professional equipment and this benefit is included with the design of your website when you <a href="contact.php" target="_blank">hire me!</a></p>
 					</div>
 					<div class="row">
-						<div class="col-md-6 col-lg-3">
+						<div class="col-md-6">
 							<img class="mw-100 mt-4" src="assets/images/snake.jpg" alt="Image of Rattlesnake"/>
 						</div>
-						<div class="col-md-6 col-lg-3">
+						<div class="col-md-6">
 							<img class="mw-100 mt-4" src="assets/images/aspen.jpg" alt="Image of Aspen Trees"/>
 						</div>
-						<div class="col-md-6 col-lg-3">
+						<div class="col-md-6">
 							<img class="mw-100 mt-4" src="assets/images/cactus.jpg" alt="Image of Cactus"/>
 						</div>
-						<div class="col-md-6 col-lg-3">
+						<div class="col-md-6">
 							<img class="mw-100 mt-4" src="assets/images/bastian.jpg" alt="Image of my son and father-in-law"/>
 						</div>
 					</div>

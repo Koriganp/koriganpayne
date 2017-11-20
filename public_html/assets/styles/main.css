@@ -43,17 +43,18 @@ header {
 		-moz-perspective: 1px;
 		perspective: 1px;
 		-webkit-transform-style: preserve-3d;
-		-moz-transform-style: preserve-3d;
 		transform-style: preserve-3d;
 	}
 
-	/* Define the height of the container where the image will be*/
+	/* Define the height of the first container where the video will be*/
 	.parallax-container {
 		height:40rem;
+		position: static;
 	}
 
 	/*Position video as background*/
-	video {
+	.video-one {
+		background-size: cover;
 		position: absolute;
 		min-width: 102%;
 		min-height: 102%;
@@ -64,6 +65,21 @@ header {
 		-webkit-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
 		-moz-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
 		transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+		z-index: -99;
+	}
+
+	/*Position video as background*/
+	.video-two {
+		position: relative;
+		min-width: 102%;
+		min-height: 102%;
+		top: 50%;
+		left: 50%;
+		width: auto;
+		height: auto;
+		-webkit-transform: translateX(-50%) translateY(-20%) translateZ(-1px) scale(2);
+		-moz-transform: translateX(-50%) translateY(-20%) translateZ(-1px) scale(2);
+		transform: translateX(-50%) translateY(-20%) translateZ(-1px) scale(2);
 		z-index: -99;
 	}
 }
