@@ -22,9 +22,11 @@
 
 		<title>Korigan Payne</title>
 	</head>
-	<body class="parallax">
+	<body>
+
 		<!-- navigation bar -->
-		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" id="top-of-page">
+
+		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark">
 			<a class="navbar-brand" href="index.php">Korigan Payne</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -55,20 +57,29 @@
 				</ul>
 			</div>
 		</nav>
-		<div class="parallax-container bigger">
-			<div class="mt-0 mb-5">
-				<video class="my-0 w-100 video-one" autoplay loop muted>
+
+		<!-- First video -->
+
+		<div class="parallax-container">
+			<div class="mt-0">
+				<video class="my-0 w-100 video-insert" autoplay loop muted>
 					<source src="assets/videos/hack-code.mov"/>
 					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/hack-code.mov">link</a> to the video</p>
 				</video>
 			</div>
 		</div>
+
+		<!-- First box -->
+
 		<header class="content clearfix">
 			<div class="jumbotron jumbotron-fluid bg-dark m-0">
 				<h1 class="display-3 lime text-center">Korigan Payne</h1>
 				<p class="lead lime text-center">Web Developer</p>
 			</div>
 		</header>
+
+		<!-- First box content -->
+
 		<section class="p-5 solid mt-0 lime">
 			<div class="container">
 				<div class="row">
@@ -82,23 +93,33 @@
 					</div>
 				</div>
 			</div>
+
+		<!-- End of first box -->
+
 		</section>
 		<div class="my-0">
 			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
 			</div>
 		</div>
-		<div class="parallax-container">
-			<div class="my-0">
-					<video class="my-0 w-100 video-two" autoplay loop muted>
-					<source src="assets/videos/ethernet.mov"/>
-					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
-				</video>
-			</div>
+
+		<!-- Second video -->
+
+		<div class="parallax-container my-0">
+			<video class="my-0 w-100 video-insert" autoplay loop muted>
+				<source src="assets/videos/ethernet.mov"/>
+				<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
+			</video>
 		</div>
+
+		<!-- Second box -->
+
 		<div class="my-0">
 			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
 			</div>
 		</div>
+
+		<!-- Second box content -->
+
 		<section class="p-5 solid mt-0 lime clearfix">
 			<div class="container-fluid">
 				<div class="row">
@@ -109,6 +130,9 @@
 						<p class="text-center">from other sites in a similar market.</p>
 						<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of your custom image and the ability to transform an ordinary image into an extraordinary piece of art. I only use professional equipment and this benefit is included with the design of your website when you <a href="contact.php" target="_blank">hire me!</a></p>
 					</div>
+
+					<!-- Image columns -->
+
 					<div class="row">
 						<div class="col-md-6">
 							<img class="mw-100 mt-4" src="assets/images/snake.jpg" alt="Image of Rattlesnake"/>
@@ -126,10 +150,14 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- Footer -->
+
 		<footer class="mt-0">
 			<div class="bg-dark text-light nav justify-content-center p-5">
 				<p>2017 Korigan Payne</p>
 			</div>
 		</footer>
+		<script src="../node_modules/rellax/rellax.js"></script>
 	</body>
 </html>
