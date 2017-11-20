@@ -83,12 +83,12 @@
 				</div>
 			</div>
 		</section>
-		<section>
-			<div class="jumbotron jumbotron-fluid bg-dark mb-0 p-5">
-			</div>
-		</section>
+<!--		<section>-->
+<!--			<div class="jumbotron jumbotron-fluid bg-dark mb-0 p-5">-->
+<!--			</div>-->
+<!--		</section>-->
 		<section class="my-0">
-			<div class="jumbotron jumbotron-fluid bg-dark mb-0">
+			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
 			</div>
 		</section>
 		<section class="p-5 solid mt-0 lime">

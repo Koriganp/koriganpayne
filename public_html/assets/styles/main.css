@@ -22,6 +22,9 @@ header {
 .solid {
 	background-color: black;
 }
+.bigger {
+	padding-bottom: 12rem;
+}
 
 /*Responsive parallax effect for larger screens*/
 @media (min-width: 768px) {
