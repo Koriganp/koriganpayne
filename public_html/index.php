@@ -52,11 +52,9 @@
 				</ul>
 			</div>
 		</nav>
-		<video class="mb-0 w-100" autoplay loop muted>
-			<source src="assets/videos/hack-code.mov"/>
-			<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/hack-code.mov">link</a> to the video</p>
-		</video>
-		<header>
+		<div class="parallax-container">
+		</div>
+		<header class="content">
 			<div class="jumbotron bg-dark mt-0">
 				<h1 class="display-3 lime text-center">Korigan Payne</h1>
 				<p class="lead lime text-center">Web Developer</p>
@@ -79,10 +77,18 @@
 			<div class="jumbotron bg-dark mb-0">
 			</div>
 		</section>
-		<video class="mt-0 mb-0 w-100" autoplay loop muted>
-			<source src="assets/videos/ethernet.mov"/>
-			<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
-		</video>
+		<section>
+			<video class="mt-0 mb-0 w-100" autoplay loop muted>
+				<source src="assets/videos/ethernet.mov"/>
+				<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
+			</video>
+		</section>
+		<section>
+			<video class="mt-0 mb-0 w-100" autoplay loop muted>
+				<source src="assets/videos/hack-code.mov" type="video/mov"/>
+				<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/hack-code.mov">link</a> to the video</p>
+			</video>
+		</section>
 		<section>
 			<div class="jumbotron bg-dark mt-0">
 			</div>

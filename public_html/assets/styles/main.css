@@ -15,3 +15,40 @@ h1 .web{
 	color: lime;
 }
 
+html {
+	overflow: hidden
+}
+
+html, body{
+	height: 100%
+}
+
+body{
+	overflow: hidden;
+	overflow-y: auto;
+	-webkit-perspective: 1px;
+	-moz-perspective: 1px;
+	perspective: 1px;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d
+}
+.parallax-container{
+	/* Define the height of the container
+    where the image will be */
+	height:40rem;
+}
+
+video{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	top: 50%;
+	left: 50%;
+	width: auto;
+	height: auto;
+	-webkit-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+	-moz-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+	transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+	z-index: -99
+}
