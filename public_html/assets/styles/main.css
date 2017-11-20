@@ -5,7 +5,9 @@ body {
 	text-align: justify;
 	position: relative;
 	min-height: 100%;
+	background-color: black;
 }
+
 
 h1 .web{
 	font-size: 3em;
@@ -28,59 +30,61 @@ header {
 
 /*Responsive parallax effect for larger screens*/
 @media (min-width: 768px) {
-	html {
-		overflow: hidden;
-	}
+	@supports (-webkit-appearance:none) {
+		html {
+			overflow: hidden;
+		}
 
-	html, body {
-		height: 100%;
-	}
+		html, body {
+			height: 100%;
+		}
 
-	.parallax {
-		overflow: hidden;
-		overflow-y: auto;
-		-webkit-perspective: 1px;
-		-moz-perspective: 1px;
-		perspective: 1px;
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
-	}
+		.parallax {
+			overflow: hidden;
+			overflow-y: auto;
+			-webkit-perspective: 1px;
+			-moz-perspective: 1px;
+			perspective: 1px;
+			-webkit-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+		}
 
-	/* Define the height of the first container where the video will be*/
-	.parallax-container {
-		height:40rem;
-		position: static;
-	}
+		/* Define the height of the first container where the video will be*/
+		.parallax-container {
+			height:40rem;
+			position: static;
+		}
 
-	/*Position video as background*/
-	.video-one {
-		background-size: cover;
-		position: absolute;
-		min-width: 102%;
-		min-height: 102%;
-		top: 50%;
-		left: 50%;
-		width: auto;
-		height: auto;
-		-webkit-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
-		-moz-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
-		transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
-		z-index: -99;
-	}
+		/*Position video as background*/
+		.video-one {
+			background-size: cover;
+			position: absolute;
+			min-width: 102%;
+			min-height: 102%;
+			top: 50%;
+			left: 50%;
+			width: auto;
+			height: auto;
+			-webkit-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+			-moz-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+			transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+			z-index: -99;
+		}
 
-	/*Position video as background*/
-	.video-two {
-		position: relative;
-		min-width: 102%;
-		min-height: 102%;
-		top: 50%;
-		left: 50%;
-		width: auto;
-		height: auto;
-		-webkit-transform: translateX(-50%) translateY(-20%) translateZ(-1px) scale(2);
-		-moz-transform: translateX(-50%) translateY(-20%) translateZ(-1px) scale(2);
-		transform: translateX(-50%) translateY(-20%) translateZ(-1px) scale(2);
-		z-index: -99;
+		/*Position video as background*/
+		.video-two {
+			position: relative;
+			min-width: 102%;
+			min-height: 102%;
+			top: 50%;
+			left: 50%;
+			width: auto;
+			height: auto;
+			-webkit-transform: translateX(-50%) translateY(-20%) translateZ(-1px) scale(2);
+			-moz-transform: translateX(-50%) translateY(-20%) translateZ(-1px) scale(2);
+			transform: translateX(-50%) translateY(-20%) translateZ(-1px) scale(2);
+			z-index: -99;
+		}
 	}
 }
 

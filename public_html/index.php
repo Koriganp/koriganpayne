@@ -55,7 +55,7 @@
 				</ul>
 			</div>
 		</nav>
-		<div class="parallax-container">
+		<div class="parallax-container bigger">
 			<section class="mt-0 mb-5">
 				<video class="my-0 w-100 video-one" autoplay loop muted>
 					<source src="assets/videos/hack-code.mov"/>
@@ -63,7 +63,7 @@
 				</video>
 			</section>
 		</div>
-		<header class="content">
+		<header class="content clearfix">
 			<div class="jumbotron jumbotron-fluid bg-dark m-0">
 				<h1 class="display-3 lime text-center">Korigan Payne</h1>
 				<p class="lead lime text-center">Web Developer</p>
@@ -99,7 +99,7 @@
 			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
 			</div>
 		</section>
-		<section class="p-5 solid mt-0 lime">
+		<section class="p-5 solid mt-0 lime clearfix">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-12">
