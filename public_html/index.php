@@ -56,7 +56,7 @@
 			</div>
 		</nav>
 		<div class="parallax-container bigger">
-			<div class="mt-0 mb-5 video-container">
+			<div class="mt-0 mb-5">
 				<video class="my-0 w-100 video-one" autoplay loop muted>
 					<source src="assets/videos/hack-code.mov"/>
 					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/hack-code.mov">link</a> to the video</p>
@@ -88,7 +88,7 @@
 			</div>
 		</div>
 		<div class="parallax-container">
-			<div class="my-0 video-container">
+			<div class="my-0">
 					<video class="my-0 w-100 video-two" autoplay loop muted>
 					<source src="assets/videos/ethernet.mov"/>
 					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
