@@ -5,7 +5,7 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width = device-width, user-scalable = no, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-		<meta title="author" content="Korigan Payne"/>
+		<meta name="author" content="Korigan Payne"/>
 		<meta name="description" content="Personal website featuring skills, web-design, and contact information"/>
 
 		<!-- Bootstrap CSS -->
@@ -24,7 +24,7 @@
 	</head>
 	<body class="parallax">
 		<!-- navigation bar -->
-		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" id="top-of-page" role="navigation">
+		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" id="top-of-page">
 			<a class="navbar-brand" href="index.php">Korigan Payne</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -56,12 +56,12 @@
 			</div>
 		</nav>
 		<div class="parallax-container bigger">
-			<section class="mt-0 mb-5">
+			<div class="mt-0 mb-5 video-container">
 				<video class="my-0 w-100 video-one" autoplay loop muted>
 					<source src="assets/videos/hack-code.mov"/>
 					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/hack-code.mov">link</a> to the video</p>
 				</video>
-			</section>
+			</div>
 		</div>
 		<header class="content clearfix">
 			<div class="jumbotron jumbotron-fluid bg-dark m-0">
@@ -83,26 +83,27 @@
 				</div>
 			</div>
 		</section>
-		<section class="my-0">
+		<div class="my-0">
 			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
 			</div>
-		</section>
+		</div>
 		<div class="parallax-container">
-			<section class="my-0">
-								<video class="my-0 w-100 video-two" autoplay loop muted>
+			<div class="my-0 video-container">
+					<video class="my-0 w-100 video-two" autoplay loop muted>
 					<source src="assets/videos/ethernet.mov"/>
 					<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
 				</video>
-			</section>
+			</div>
 		</div>
-		<section class="my-0">
+		<div class="my-0">
 			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
 			</div>
-		</section>
+		</div>
 		<section class="p-5 solid mt-0 lime clearfix">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-12">
+						<h2 class="lime text-center">Let me work for you!</h2>
 						<p>If you need custom images for your website showcasing features, people, or a beautiful shot of your physical location, not only am I a web developer, but I am also a photographer. I do things differently than other photographers might. Beyond simply taking a nice picture, I take a step back to observe and capture all the emotion and unique details that will make the images on <em>your</em> site</p>
 						<p class="lime display-4 text-center">STAND OUT</p>
 						<p class="text-center">from other sites in a similar market.</p>
@@ -125,12 +126,8 @@
 				</div>
 			</div>
 		</section>
-		<section>
-			<div class="jumbotron jumbotron-fluid bg-dark mb-0">
-			</div>
-		</section>
 		<footer class="mt-0">
-			<div class="bg-dark text-light nav justify-content-center pt-3">
+			<div class="bg-dark text-light nav justify-content-center p-5">
 				<p>2017 Korigan Payne</p>
 			</div>
 		</footer>
