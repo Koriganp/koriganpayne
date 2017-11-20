@@ -70,8 +70,9 @@
 						<img class="mw-100" src="assets/images/profile.jpg" alt="Image of Korigan Payne"/>
 					</div>
 					<div class="col-md-6 col-lg-9">
-						<p>Welcome to my page! I am a web developer with a background in marketing, sales, and customer service. I specialize in PHP, JavaScript, MySQL, HTML5, CSS3, Angular, and Bootstrap4. If you are looking for a detail-oriented  </p>
-						<p>In your world you have total and absolute power. That's a son of a gun of a cloud. Nice little clouds playing around in the sky. And that's when it becomes fun - you don't have to spend your time thinking about what's happening - you just let it happen. Paint anything you want on the canvas. Create your own world. We want to use a lot pressure while using no pressure at all.</p>
+						<h2>Are you looking for a web developer?</h2>
+						<p>Hello, My name is Korigan Payne! I am an Albuquerque-based freelance web developer and I create beautiful and functional websites for small businesses. If I am not freelancing at some of Albuquerque's finest digital agencies, I am working remotely on projects for clients all over the world. I have a diverse set of skills, ranging from design, to HTML5 + CSS3 + Javascript, all the way to PHP.</p>
+						<p>I primarily use Angular and Bootstrap, but picking up a new framework or language isn't a problem. I am comfortable with developing on the frontend or backend, as well as setting up or managing infrastructure. Each of my designs begin with a blank canvas, which allows your content to guide the layout. I also create with responsiveness in mind, which will make your website accessible across all devices. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="contact.php" target="_blank">here</a>.</p>
 					</div>
 				</div>
 			</div>
