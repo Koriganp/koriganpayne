@@ -84,15 +84,15 @@
 			</div>
 		</section>
 		<section>
-			<div class="jumbotron jumbotron-fluid bg-dark mb-0">
+			<div class="jumbotron jumbotron-fluid bg-dark mb-0 p-5">
 			</div>
 		</section>
 		<section class="my-0">
-			<div class="jumbotron jumbotron-fluid bg-dark">
+			<div class="jumbotron jumbotron-fluid bg-dark mb-0">
 			</div>
 		</section>
-		<section class="p-5">
-			<div class="container">
+		<section class="p-5 solid mt-0 lime">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-12">
 						<p>If you need custom images for your website showcasing features, people, or a beautiful shot of your physical location, not only am I a web developer, but I am also a photographer. I do things differently than other photographers might. Beyond simply taking a nice picture, I take a step back to observe and capture all the emotion and unique details that will make the images on <em>your</em> site</p>
