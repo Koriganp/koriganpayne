@@ -44,6 +44,9 @@
 						<a class="nav-link" href="index.php">Home</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" href="assets/docs/resume.pdf" target="_blank">Resume</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="portfolio.php">Portfolio</a>
 					</li>
 					<li class="nav-item">
@@ -55,26 +58,26 @@
 		<div class="parallax-container">
 		</div>
 		<header class="content">
-			<div class="jumbotron bg-dark mt-0">
+			<div class="jumbotron jumbotron-fluid bg-dark m-0">
 				<h1 class="display-3 lime text-center">Korigan Payne</h1>
 				<p class="lead lime text-center">Web Developer</p>
 			</div>
 		</header>
-		<section class="p-5">
+		<section class="p-5 solid mt-0 lime">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-3">
-						<img class="mw-100 mt-4" src="assets/images/" alt="Image of Korigan Payne"/>
+						<img class="mw-100" src="assets/images/profile.jpg" alt="Image of Korigan Payne"/>
 					</div>
 					<div class="col-md-6 col-lg-9">
-						<p>You can do anything your heart can imagine. Trees grow however makes them happy. Put your feelings into it, your heart, it's your world. I thought today we would make a happy little stream that's just running through the woods here. Only eight colors that you need. Anytime you learn something your time and energy are not wasted. Isn't that fantastic that you can create an almighty tree that fast?</p>
+						<p>Welcome to my page! I am a web developer with a background in marketing, sales, and customer service. I specialize in PHP, JavaScript, MySQL, HTML5, CSS3, Angular, and Bootstrap4. If you are looking for a detail-oriented  </p>
 						<p>In your world you have total and absolute power. That's a son of a gun of a cloud. Nice little clouds playing around in the sky. And that's when it becomes fun - you don't have to spend your time thinking about what's happening - you just let it happen. Paint anything you want on the canvas. Create your own world. We want to use a lot pressure while using no pressure at all.</p>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section>
-			<div class="jumbotron bg-dark mb-0">
+			<div class="jumbotron jumbotron-fluid bg-dark mb-0">
 			</div>
 		</section>
 		<section>
@@ -90,7 +93,7 @@
 			</video>
 		</section>
 		<section>
-			<div class="jumbotron bg-dark mt-0">
+			<div class="jumbotron jumbotron-fluid bg-dark mt-0">
 			</div>
 		</section>
 		<section class="p-5">
@@ -107,7 +110,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="jumbotron bg-dark">
+			<div class="jumbotron jumbotron-fluid bg-dark">
 			</div>
 		</section>
 		<section class="p-5">
