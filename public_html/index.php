@@ -75,7 +75,7 @@
 		<!-- About content -->
 
 		<section class="p-5 mt-0 text-light">
-			<div class="container transparent">
+			<div class="container solid">
 				<div class="row">
 					<div class="col-md-6 col-lg-3">
 						<img class="mw-100" src="assets/images/profile.jpg" alt="Image of Korigan Payne"/>
@@ -107,7 +107,7 @@
 
 		<!-- End content -->
 		<section class="p-5 mt-0 text-light">
-			<div class="container-fluid transparent">
+			<div class="container-fluid solid">
 				<div class="row">
 					<div class="col-12">
 						<h2 class="text-center">Let me work for you!</h2>
@@ -138,6 +138,5 @@
 				<p>2017 Korigan Payne</p>
 			</div>
 		</footer>
-
 	</body>
 </html>

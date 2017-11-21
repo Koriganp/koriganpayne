@@ -16,8 +16,8 @@ body {
 padding-bottom: 12rem;
 }
 
-.transparent {
-	background-color: transparent;
+.solid {
+	background-color: black;
 }
 
 /*parallax*/
