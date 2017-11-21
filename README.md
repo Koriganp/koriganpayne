@@ -40,3 +40,6 @@ These new wireframes are much more clear - which should provide you with a bette
 - Mobile browsers have varying support of CSS `background-attachment: fixed;`. This could affect your design plans on iOS and Chrome for Android. See Notes 2, 4 here: https://caniuse.com/#search=background-attachment
 
 Your score has been bumped to [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development on your PWP!
+
+## Milestone 2&beta; Feedback
+Since we already went over the changes, your PWP has passed milestone 2&beta; with a [TierIV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Great job!
