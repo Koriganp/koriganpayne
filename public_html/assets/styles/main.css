@@ -16,10 +16,6 @@ body {
 padding-bottom: 12rem;
 }
 
-.solid {
-	background-color: black;
-}
-
 /*parallax*/
 .parallax-content {
 	position: relative;
