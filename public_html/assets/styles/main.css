@@ -9,21 +9,14 @@ body {
 	background-color: black;
 }
 
+/*Size navbar icons*/
 .tab-size {
 	width: 5rem;
 }
 
+/*Size scrolling bar*/
 .bigger {
 padding-bottom: 12rem;
-}
-
-.content {
-	color: white;
-	font-size: 12rem;
-	line-height: 35rem;
-	font-weight: 700;
-	text-align: center;
-	text-shadow: 0 0 1rem gray;
 }
 
 /*parallax*/
@@ -48,7 +41,7 @@ padding-bottom: 12rem;
 
 .parallax:before {
 	content: "";
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -71,7 +64,16 @@ padding-bottom: 12rem;
 	.parallax-content-3 {
 		background-image: url(../images/argyle-hills-red-still.jpg);
 	}
+	.content {
+		color: white;
+		font-size: 12rem;
+		line-height: 35rem;
+		font-weight: 700;
+		text-align: center;
+		text-shadow: 0 0 1rem gray;
+	}
 }
+
 /*xs to 0*/
 @media(max-width: 768px){
 	.parallax-content .parallax:before {
@@ -82,5 +84,13 @@ padding-bottom: 12rem;
 	}
 	.parallax-content-3 .parallax:before {
 		background-image: url(../images/argyle-hills-red-still.jpg);
+	}
+	.content {
+		color: white;
+		font-size: 4rem;
+		line-height: 30rem;
+		font-weight: 700;
+		text-align: center;
+		text-shadow: 0 0 1rem gray;
 	}
 }
