@@ -45,7 +45,7 @@ padding-bottom: 12rem;
 	z-index: -1;
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-size: 120% auto;
+	overflow: hidden;
 }
 /*xs to lg*/
 @media(min-width: 769px){
