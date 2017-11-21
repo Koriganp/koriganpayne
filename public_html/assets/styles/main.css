@@ -17,6 +17,15 @@ body {
 padding-bottom: 12rem;
 }
 
+.content {
+	color: white;
+	font-size: 12rem;
+	line-height: 35rem;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 0 0 1rem gray;
+}
+
 /*parallax*/
 .parallax-content {
 	position: relative;
@@ -34,7 +43,7 @@ padding-bottom: 12rem;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: -1;
+	z-index: 1;
 }
 
 .parallax:before {
@@ -45,7 +54,7 @@ padding-bottom: 12rem;
 	right: 0;
 	bottom: 0;
 	height: 100%;
-	z-index: -1;
+	z-index: 1;
 	background-position: center top;
 	background-repeat: no-repeat;
 	overflow: hidden;
