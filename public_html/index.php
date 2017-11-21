@@ -17,6 +17,7 @@
 		<!-- My CSS -->
 
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+		<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
 		<link href="assets/styles/main.css" rel="stylesheet"/>
 
 		<!-- jQuery, Popper.js, Bootstrap JS -->
@@ -33,7 +34,7 @@
 
 		<!-- Navigation Bar -->
 
-		<nav class="navbar navbar-default navbar-expand-md navbar-light bg-light">
+		<nav id="up" class="navbar navbar-default navbar-expand-md navbar-light bg-light">
 			<a class="navbar-brand" href="index.php">KoriganPayne.com</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -41,13 +42,13 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="https://github.com/Koriganp" target="_blank" class="nav-link tab-size"><img  class="w-50" src="assets/images/github.png" data-toggle="tooltip" data-placement="bottom" title="My Github" alt="Github"/></a>
+						<a href="https://github.com/Koriganp" target="_blank" class="nav-link"><i class="fa fa-github fa-2x"></i></a>
 					</li>
 					<li class="nav-item">
-						<a href="https://www.linkedin.com/in/korigan-payne-0570066b" target="_blank" class="nav-link tab-size"><img  class="w-50" src="assets/images/linkedin.png" data-toggle="tooltip" data-placement="bottom" title="My LinkedIn" alt="LinkedIn"/></a>
+						<a href="https://www.linkedin.com/in/korigan-payne-0570066b" target="_blank" class="nav-link"><i class="fa fa-linkedin fa-2x"></i></a>
 					</li>
 					<li class="nav-item">
-						<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link tab-size"><img  class="w-50" src="assets/images/twitter.png" data-toggle="tooltip" data-placement="bottom" title="My Twitter" alt="Twitter"/></a>
+						<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link"><i class="fa fa-twitter fa-2x"></i></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="index.php">Home</a>
@@ -92,8 +93,8 @@
 					</div>
 					<div class="col-md-6 col-lg-9">
 						<h2>Are you looking for a web developer?</h2>
-						<p>Hello, My name is Korigan Payne! I am an Albuquerque-based freelance web developer and I create beautiful and functional websites for small businesses. If I am not freelancing at some of Albuquerque's finest digital agencies, I am working remotely on projects for clients all over the world. I have a diverse set of skills, ranging from design, to HTML5 + CSS3 + Javascript, all the way to PHP.</p>
-						<p>I primarily use Angular and Bootstrap, but picking up a new framework or language isn't a problem. I am comfortable with developing on the frontend or backend, as well as setting up or managing infrastructure. Each of my designs begin with a blank canvas, which allows your content to guide the layout. I also create with responsiveness in mind, which will make your website accessible across all devices. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="contact.php" target="_blank">here</a>.</p>
+						<p>Hello! My name is Korigan Payne. I am an Albuquerque-based freelance web developer and I create attractive and functional websites for businesses and entrepreneurs. If I am not freelancing at some of Albuquerque's finest digital agencies, I am working remotely on projects for clients all over the world. I have a diverse set of skills, ranging from design, to HTML5 + CSS3 + Javascript, all the way to PHP.</p>
+						<p>I primarily use Angular and Bootstrap, but picking up a new framework or language isn't a problem. I am comfortable with developing on the frontend or backend, as well as setting up or managing infrastructure. Each of my designs begin with a blank canvas, which allows your content to guide the layout. I also create with responsiveness in mind, which will make your website accessible across all devices. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="contact.php">here</a>.</p>
 					</div>
 				</div>
 			</div>
@@ -130,7 +131,7 @@
 						<p>If you need custom images for your website showcasing features, people, or a beautiful shot of your physical location, not only am I a web developer, but I am also a photographer. I do things differently than other photographers might. Beyond simply taking a nice picture, I take a step back to observe and capture all the emotion and unique details that will make the images on <em>your</em> site</p>
 						<p class="display-4 text-center">STAND OUT</p>
 						<p class="text-center">from other sites in a similar market.</p>
-						<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of your custom image and the ability to transform an ordinary image into an extraordinary piece of art. I only use professional equipment and this benefit is included with the design of your website when you <a href="contact.php" target="_blank">hire me!</a></p>
+						<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of your custom image and the ability to transform an ordinary image into an extraordinary piece of art. I only use professional equipment and this benefit is included with the design of your website when you <a href="contact.php">hire me!</a></p>
 					</div>
 				</div>
 			</div>
@@ -170,6 +171,10 @@
 
 		</section>
 
+		<!-- Simple scroll up button -->
+
+		<a href="#up" duration="-1000" height-hide="700" easing="easeInOutQuad" class="simplescrollup__button simplescrollup__button--hide"><i class="fa fa-angle-up fa-4x"></i></a>
+
 		<!-- Footer -->
 
 		<footer class="mt-0">
@@ -177,5 +182,9 @@
 				<p>2017 Korigan Payne</p>
 			</div>
 		</footer>
+
+		<!-- Additional JS -->
+
+		<script src="../node_modules/simplescrollup/simplescrollup.js"></script>
 	</body>
 </html>

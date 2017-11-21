@@ -9,11 +9,6 @@ body {
 	background-color: black;
 }
 
-/*Size navbar icons*/
-.tab-size {
-	width: 5rem;
-}
-
 /*Size scrolling bar*/
 .bigger {
 padding-bottom: 12rem;
@@ -23,6 +18,20 @@ padding-bottom: 12rem;
 .ma {
 	margin-left: 25%;
 }
+
+/*Scroll up button*/
+.simplescrollup__button {
+	position: fixed;
+	bottom: 3rem;
+	right: 3rem;
+	transition: 1s all;
+	z-index: 10000;
+	color: dimgray;
+}
+
+.simplescrollup__button--show { transform: translateX(0); }
+
+.simplescrollup__button--hide { transform: translateX(100px); }
 
 /*parallax*/
 .parallax-content {
