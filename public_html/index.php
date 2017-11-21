@@ -60,7 +60,7 @@
 
 		<!-- First video -->
 
-		<div class="rellax" data-rellax-speed="-4" data-rellax-zindex="-1">
+		<div class="rellax" data-rellax-speed="0" data-rellax-zindex="-100">
 			<div class="mt-0">
 				<video class="my-0 w-100 video-insert" autoplay loop muted>
 					<source src="assets/videos/hack-code.mov"/>
@@ -71,7 +71,7 @@
 
 		<!-- First box -->
 
-		<header class="content clearfix">
+		<header class="content clearfix rellax" data-rellax-speed="5" data-rellax-zindex="2">
 			<div class="jumbotron jumbotron-fluid bg-dark m-0">
 				<h1 class="display-3 lime text-center">Korigan Payne</h1>
 				<p class="lead lime text-center">Web Developer</p>
@@ -80,7 +80,7 @@
 
 		<!-- First box content -->
 
-		<section class="p-5 solid mt-0 lime">
+		<section class="p-5 solid mt-0 lime rellax" data-rellax-speed="-1" data-rellax-zindex="2">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-3">
@@ -97,14 +97,14 @@
 		<!-- End of first box -->
 
 		</section>
-		<div class="my-0">
+		<div class="my-0 rellax" data-rellax-speed="-1" data-rellax-zindex="2">
 			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
 			</div>
 		</div>
 
 		<!-- Second video -->
 
-		<div class="my-0 rellax" data-rellax-speed="-4"  data-rellax-zindex="-1">
+		<div class="my-0 rellax" data-rellax-speed="0"  data-rellax-zindex="-100">
 			<video class="my-0 w-100 video-insert" autoplay loop muted>
 				<source src="assets/videos/ethernet.mov"/>
 				<p>Your browser doesn't support HTML5 video. Here is a <a href="assets/videos/ethernet.mov">link</a> to the video</p>
@@ -113,14 +113,14 @@
 
 		<!-- Second box -->
 
-		<div class="my-0">
+		<div class="my-0 rellax" data-rellax-speed="5" data-rellax-zindex="2">
 			<div class="jumbotron jumbotron-fluid bg-dark mb-0 bigger">
 			</div>
 		</div>
 
 		<!-- Second box content -->
 
-		<section class="p-5 solid mt-0 lime clearfix">
+		<section class="p-5 solid mt-0 lime rellax" data-rellax-speed="-1" data-rellax-zindex="2">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-12">
@@ -153,11 +153,12 @@
 
 		<!-- Footer -->
 
-		<footer class="mt-0">
+		<footer class="mt-0 clearfix">
 			<div class="bg-dark text-light nav justify-content-center p-5">
 				<p>2017 Korigan Payne</p>
 			</div>
 		</footer>
 		<script src="js/rellax.min.js"></script>
+		<script src="js/parallax.js"></script>
 	</body>
 </html>
