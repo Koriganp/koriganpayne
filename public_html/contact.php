@@ -22,23 +22,25 @@
 
 		<title>Korigan Payne</title>
 	</head>
-	<body class="parallax">
-		<!-- navigation bar -->
-		<nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark" id="top-of-page" role="navigation">
-			<a class="navbar-brand" href="index.php">Korigan Payne</a>
+	<body>
+
+		<!-- Navigation Bar -->
+
+		<nav class="navbar navbar-default navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="index.php">KoriganPayne.com</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="https://github.com/Koriganp" target="_blank" class="nav-link"><img class="w-25" src="assets/images/github.png" data-toggle="tooltip" data-placement="bottom" title="My Github" alt="Github"/></a>
+						<a href="https://github.com/Koriganp" target="_blank" class="nav-link tab-size"><img  class="w-50" src="assets/images/github.png" data-toggle="tooltip" data-placement="bottom" title="My Github" alt="Github"/></a>
 					</li>
 					<li class="nav-item">
-						<a href="https://www.linkedin.com/in/korigan-payne-0570066b" target="_blank" class="nav-link"><img class="w-25" src="assets/images/linkedin.png" data-toggle="tooltip" data-placement="bottom" title="My LinkedIn" alt="LinkedIn"/></a>
+						<a href="https://www.linkedin.com/in/korigan-payne-0570066b" target="_blank" class="nav-link tab-size"><img  class="w-50" src="assets/images/linkedin.png" data-toggle="tooltip" data-placement="bottom" title="My LinkedIn" alt="LinkedIn"/></a>
 					</li>
 					<li class="nav-item">
-						<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link"><img class="w-25" src="assets/images/twitter.png" data-toggle="tooltip" data-placement="bottom" title="My Twitter" alt="Twitter"/></a>
+						<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link tab-size"><img  class="w-50" src="assets/images/twitter.png" data-toggle="tooltip" data-placement="bottom" title="My Twitter" alt="Twitter"/></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="index.php">Home</a>
@@ -56,7 +58,7 @@
 			</div>
 		</nav>
 		<footer>
-			<div class="bg-dark text-light nav justify-content-center pt-3">
+			<div class="bg-light text-dark nav justify-content-center pt-3">
 				<p>2017 Korigan Payne</p>
 			</div>
 		</footer>

@@ -13,7 +13,7 @@
 
 		<!-- My CSS -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
-		<link href="assets/styles/main.css" rel="stylesheet"/>
+		<link href="assets/styles/main-old.css" rel="stylesheet"/>
 
 		<!-- jQuery, Popper.js, Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
