@@ -16,6 +16,10 @@ body {
 padding-bottom: 12rem;
 }
 
+.transparent {
+	background-color: transparent;
+}
+
 /*parallax*/
 .parallax-content {
 	position: relative;
