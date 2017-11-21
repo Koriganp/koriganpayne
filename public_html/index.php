@@ -132,22 +132,42 @@
 						<p class="text-center">from other sites in a similar market.</p>
 						<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of your custom image and the ability to transform an ordinary image into an extraordinary piece of art. I only use professional equipment and this benefit is included with the design of your website when you <a href="contact.php" target="_blank">hire me!</a></p>
 					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<img class="mw-100 mt-4" src="assets/images/snake.jpg" alt="Image of Rattlesnake"/>
-						</div>
-						<div class="col-md-6">
-							<img class="mw-100 mt-4" src="assets/images/aspen.jpg" alt="Image of Aspen Trees"/>
-						</div>
-						<div class="col-md-6">
-							<img class="mw-100 mt-4" src="assets/images/cactus.jpg" alt="Image of Cactus"/>
-						</div>
-						<div class="col-md-6">
-							<img class="mw-100 mt-4" src="assets/images/bastian.jpg" alt="Image of my son and father-in-law"/>
-						</div>
-					</div>
 				</div>
 			</div>
+
+					<!-- Carousel for images -->
+
+			<div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselIndicators" data-slide-to="2"></li>
+					<li data-target="#carouselIndicators" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<img class="d-block w-50 ma" src="assets/images/snake.jpg" alt="Image of Rattlesnake"/>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-50 ma" src="assets/images/aspen.jpg" alt="Image of Aspen Trees"/>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-50 ma" src="assets/images/cactus.jpg" alt="Image of Cactus"/>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-50 ma" src="assets/images/bastian.jpg" alt="Image of my son and father-in-law"/>
+					</div>
+					<a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+
 		</section>
 
 		<!-- Footer -->
