@@ -60,10 +60,11 @@
 
 		<!-- Parallax -->
 
-		<div class="parallax-content">
+		<section class="parallax-content">
 			<div class="parallax">
+				<h1 class="content">Artistic</h1>
 			</div>
-		</div>
+		</section>
 
 		<!-- Main box -->
 
@@ -90,22 +91,28 @@
 		</section>
 
 		<!-- Parallax 2 -->
-		<div class="parallax-content parallax-content-2">
+
+		<section class="parallax-content parallax-content-2">
 			<div class="parallax">
+				<h1 class="content">Web</h1>
 			</div>
-		</div>
+		</section>
 
 		<!-- Middle breaking bar -->
+
 		<div class="jumbotron jumbotron-fluid bg-light m-0 bigger">
 		</div>
 
 		<!-- Parallax 3 -->
-		<div class="parallax-content parallax-content-3">
+
+		<section class="parallax-content parallax-content-3">
 			<div class="parallax">
+				<h1  class="content">Design</h1>
 			</div>
-		</div>
+		</section>
 
 		<!-- End content -->
+
 		<section class="p-5 mt-0 text-light">
 			<div class="container-fluid">
 				<div class="row">
@@ -133,6 +140,9 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- Footer -->
+
 		<footer class="mt-0">
 			<div class="bg-light text-dark nav justify-content-center p-5">
 				<p>2017 Korigan Payne</p>

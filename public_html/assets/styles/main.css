@@ -1,10 +1,11 @@
 /*Change font for page*/
 body {
+	margin: 0;
+	padding: 0;
+	border: 0;
 	font-size: 1em;
 	font-family: 'Raleway', sans-serif;
 	text-align: justify;
-	position: relative;
-	min-height: 100%;
 	background-color: black;
 }
 
@@ -26,6 +27,7 @@ padding-bottom: 12rem;
 	background-attachment: fixed;
 	background-position: center center;
 }
+
 .parallax {
 	position: absolute;
 	top: 0;
@@ -34,6 +36,7 @@ padding-bottom: 12rem;
 	bottom: 0;
 	z-index: -1;
 }
+
 .parallax:before {
 	content: "";
 	position: fixed;
@@ -47,6 +50,7 @@ padding-bottom: 12rem;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
+
 /*xs to lg*/
 @media(min-width: 769px){
 	.parallax-content {
