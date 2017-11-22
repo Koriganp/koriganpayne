@@ -4,7 +4,7 @@
 		<meta charset="utf-8"/>
 		<meta name="author" content="Korigan Payne"/>
 		<meta name="description" content="direction of the personal website project"/>
-		<link href="../assets/styles/milestone-1.css" rel="stylesheet" type="text/css"/>
+		<link href="../styles/milestone-1.css" rel="stylesheet" type="text/css"/>
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
 		<title>Milestone 1</title>
 	</head>

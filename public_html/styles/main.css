@@ -15,7 +15,7 @@ body, html {
 
 .bg {
 	/* The image used */
-	background-image: url(../../images/argyle-hills-blur-still.jpg);
+	background-image: url(../images/argyle-hills-blur-still.jpg);
 
 	/* Full height */
 	height: 100%;
@@ -87,13 +87,13 @@ padding-bottom: 12rem;
 /*xs to lg*/
 @media(min-width: 769px){
 	.parallax-content {
-		background-image: url(../../images/argyle-hills-still.jpg);
+		background-image: url(../images/argyle-hills-still.jpg);
 	}
 	.parallax-content-2 {
-		background-image: url(../../images/argyle-hills-thin-red-still.jpg);
+		background-image: url(../images/argyle-hills-thin-red-still.jpg);
 	}
 	.parallax-content-3 {
-		background-image: url(../../images/argyle-hills-red-still.jpg);
+		background-image: url(../images/argyle-hills-red-still.jpg);
 	}
 	.content {
 		color: white;
@@ -108,13 +108,13 @@ padding-bottom: 12rem;
 /*xs to 0*/
 @media(max-width: 768px){
 	.parallax-content .parallax:before {
-		background-image: url(../../images/argyle-hills-still.jpg);
+		background-image: url(../images/argyle-hills-still.jpg);
 	}
 	.parallax-content-2 .parallax:before {
-		background-image: url(../../images/argyle-hills-thin-red-still.jpg);
+		background-image: url(../images/argyle-hills-thin-red-still.jpg);
 	}
 	.parallax-content-3 .parallax:before {
-		background-image: url(../../images/argyle-hills-red-still.jpg);
+		background-image: url(../images/argyle-hills-red-still.jpg);
 	}
 	.content {
 		color: white;
