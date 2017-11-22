@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial scale=1, shrink-to-fit=no"/>
 		<meta name="author" content="Korigan Payne"/>
 		<meta name="description" content="direction of the personal website project"/>
-		<link href="../styles/milestone-2.css" rel="stylesheet" type="text/css"/>
+		<link href="milestone-2.css" rel="stylesheet" type="text/css"/>
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
 		<title>Milestone 2</title>
 	</head>
