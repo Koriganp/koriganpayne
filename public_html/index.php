@@ -2,16 +2,13 @@
 /*grab current directory*/
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
-$PAGE_TITLE = "Simple Template Example - Home";
+$PAGE_TITLE = "Korigan Payne - Web Developer";
 /*load the HTML head tag: head-utils.php*/
 require_once("php/partials/head-utils.php");
 ?>
 
-<body>
-
 	<!-- Navigation Bar -->
 
-	<!-- insert header and navbar -->
 	<?php require_once("php/partials/header.php");?>
 
 
@@ -126,9 +123,4 @@ require_once("php/partials/head-utils.php");
 
 	<!-- Footer -->
 
-	<!-- insert footer -->
 	<?php require_once("php/partials/footer.php");?>
-
-
-	</body>
-</html>
