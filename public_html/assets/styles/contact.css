@@ -5,6 +5,22 @@ body {
 	font-size: 1em;
 	font-family: 'Raleway', sans-serif;
 	text-align: justify;
-	background-image: url(../images/argyle-hills-blur-still.jpg);
 	background-color: black;
+}
+
+body, html {
+	height: 100%;
+}
+
+.bg {
+	/* The image used */
+	background-image: url(../images/argyle-hills-blur-still.jpg);
+
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
