@@ -10,3 +10,4 @@
 /npm-debug.log
 /webpack/target.js
 /font-awesome
+**/php/mailer-config.php
