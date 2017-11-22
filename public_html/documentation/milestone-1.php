@@ -20,7 +20,7 @@
 			<p class="story">To attract potential clients and employers to myself and my work.</p>
 
 			<h1>Persona</h1>
-			<img id="jared" src="../assets/images/photo.jpg" alt="Image of Jared Mason"/>
+			<img id="jared" src="../images/photo.jpg" alt="Image of Jared Mason"/>
 			<h2 id="about">Jared Mason</h2>
 			<p>Mr. Mason is a 32 year old husband, father, and entrepreneur who has started his own photography business. He
 			loves his Nikon D850 and has everything he needs to create the best pictures and quality. He uses Adobe Photoshop&reg;

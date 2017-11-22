@@ -90,7 +90,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-3">
-						<img class="mw-100" src="assets/images/profile.jpg" alt="Image of Korigan Payne"/>
+						<img class="mw-100" src="images/profile.jpg" alt="Image of Korigan Payne"/>
 					</div>
 					<div class="col-md-6 col-lg-9">
 						<h2>Are you looking for a web developer?</h2>
@@ -148,16 +148,16 @@
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="carousel-item active">
-						<img class="d-block w-50 ma" src="assets/images/snake.jpg" alt="Image of Rattlesnake"/>
+						<img class="d-block w-50 ma" src="images/snake.jpg" alt="Image of Rattlesnake"/>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-50 ma" src="assets/images/aspen.jpg" alt="Image of Aspen Trees"/>
+						<img class="d-block w-50 ma" src="images/aspen.jpg" alt="Image of Aspen Trees"/>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-50 ma" src="assets/images/cactus.jpg" alt="Image of Cactus"/>
+						<img class="d-block w-50 ma" src="images/cactus.jpg" alt="Image of Cactus"/>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-50 ma" src="assets/images/bastian.jpg" alt="Image of my son and father-in-law"/>
+						<img class="d-block w-50 ma" src="images/bastian.jpg" alt="Image of my son and father-in-law"/>
 					</div>
 					<a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
