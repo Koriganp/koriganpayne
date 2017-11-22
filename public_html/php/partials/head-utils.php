@@ -49,7 +49,12 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<script src="<?php echo $PREFIX;?>js/form-validate.js" type="text/javascript"></script>
 
+		<!-- Additional JavaScript -->
+
+		<script src="<?php echo $PREFIX;?>../node_modules/simplescrollup/simplescrollup.js"></script>
+
 		<!-- echo the $PAGE_TITLE variable here -->
 
 		<title><?php echo $PAGE_TITLE;?></title>
 	</head>
+	<body>
