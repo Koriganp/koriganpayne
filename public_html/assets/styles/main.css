@@ -14,6 +14,16 @@ body {
 padding-bottom: 12rem;
 }
 
+/*Delay Animation*/
+#effects {
+	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	-o-animation-delay: 4s;
+	-webkit-animation-duration: 10s;
+	-moz-animation-duration: 10s;
+	-o-animation-duration: 10s;
+}
+
 /*Center images in carousel*/
 .ma {
 	margin-left: 25%;
