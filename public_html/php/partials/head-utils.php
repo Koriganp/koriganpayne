@@ -43,7 +43,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Google reCAPTCHA -->
 
-		<script src=""></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- JavaScript Form Validator File -->
 
