@@ -42,7 +42,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 		<!-- Google reCAPTCHA -->
-		<script src="https://www.google.com/recaptcha/api.js"></script>
+		<script src=""></script>
 
 		<!-- JavaScript Form Validator File -->
 		<script src="<?php echo $PREFIX;?>js/form-validate.js" type="text/javascript"></script>
