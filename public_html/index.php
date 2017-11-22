@@ -54,7 +54,7 @@
 						<a class="nav-link" href="index.php">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="assets/docs/resume.pdf" target="_blank">Resume</a>
+						<a class="nav-link" href="assets/docs/resume.pdf" target="_blank">Resumé</a>
 					</li>
 					<!--					<li class="nav-item">-->
 					<!--						<a class="nav-link" href="portfolio.php">Portfolio</a>-->
