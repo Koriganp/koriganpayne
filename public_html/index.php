@@ -57,9 +57,9 @@
 					<li class="nav-item">
 						<a class="nav-link" href="assets/docs/resume.pdf" target="_blank">Resumé</a>
 					</li>
-					<!--					<li class="nav-item">-->
-					<!--						<a class="nav-link" href="portfolio.php">Portfolio</a>-->
-					<!--					</li>-->
+					<!--<li class="nav-item">-->
+					<!--<a class="nav-link" href="portfolio/index.php">Portfolio</a>-->
+					<!--</li>-->
 					<li class="nav-item">
 						<a class="nav-link" href="contact.php">Contact</a>
 					</li>
@@ -130,7 +130,7 @@
 					<div class="col-12">
 						<h2 class="text-center">Let me work for you!</h2>
 						<p>If you need custom images for your website showcasing features, people, or a beautiful shot of your physical location, not only am I a web developer, but I am also a photographer. I do things differently than other photographers might. Beyond simply taking a nice picture, I take a step back to observe and capture all the emotion and unique details that will make the images on <em>your</em> site</p>
-						<p id="effects" class="display-4 text-center animated jello">STAND OUT</p>
+						<p class="display-4 text-center animated zoomInUp">STAND OUT</p>
 						<p class="text-center">from other sites in a similar market.</p>
 						<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of your custom image and the ability to transform an ordinary image into an extraordinary piece of art. I only use professional equipment and this benefit is included with the design of your website when you <a href="contact.php">hire me!</a></p>
 					</div>
@@ -187,5 +187,6 @@
 		<!-- Additional JS -->
 
 		<script src="../node_modules/simplescrollup/simplescrollup.js"></script>
+		<script src="assets/scripts/main.js"></script>
 	</body>
 </html>
