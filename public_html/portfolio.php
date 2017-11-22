@@ -61,7 +61,7 @@
 					<!--						<a class="nav-link" href="portfolio/index.php">Portfolio</a>-->
 					<!--					</li>-->
 					<li class="nav-item">
-						<a class="nav-link" href="contact/contact.php">Contact</a>
+						<a class="nav-link" href="contact/index.php">Contact</a>
 					</li>
 				</ul>
 			</div>
