@@ -17,9 +17,9 @@
 		<!-- My CSS -->
 
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
-		<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
-		<link href="styles/main.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../node_modules/animate.css/animate.min.css">
+		<link href="../styles/main.css" rel="stylesheet"/>
 
 		<!-- jQuery, Popper.js, Bootstrap JS -->
 
@@ -36,7 +36,7 @@
 		<!-- Navigation Bar -->
 
 		<nav id="up" class="navbar navbar-default navbar-expand-md navbar-light bg-light">
-			<a class="navbar-brand" href="index.php">KoriganPayne.com</a>
+			<a class="navbar-brand" href="../index.php">KoriganPayne.com</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -52,10 +52,10 @@
 						<a href="https://twitter.com/KoriganP?lang=en" target="_blank" class="nav-link"><i class="fa fa-twitter fa-2x"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="index.php">Home</a>
+						<a class="nav-link" href="../index.php">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="docs/resume.pdf" target="_blank">Resumé</a>
+						<a class="nav-link" href="../docs/resume.pdf" target="_blank">Resumé</a>
 					</li>
 					<!--					<li class="nav-item">-->
 					<!--						<a class="nav-link" href="portfolio.php">Portfolio</a>-->
