@@ -187,6 +187,6 @@
 		<!-- Additional JS -->
 
 		<script src="../node_modules/simplescrollup/simplescrollup.js"></script>
-		<script src="assets/scripts/main.js"></script>
+		<script src="scripts/main.js"></script>
 	</body>
 </html>
