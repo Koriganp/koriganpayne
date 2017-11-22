@@ -18,6 +18,7 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
 		<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
 		<link href="assets/styles/main.css" rel="stylesheet"/>
 
 		<!-- jQuery, Popper.js, Bootstrap JS -->
