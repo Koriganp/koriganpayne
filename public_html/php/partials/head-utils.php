@@ -49,6 +49,5 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Page Title -->
 
-		<!-- echo the $PAGE_TITLE variable here -->
-		<title><?php echo $PAGE_TITLE;?></title>
+		<title>Korigan Payne Web Developer</title>
 	</head>
