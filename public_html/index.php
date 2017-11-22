@@ -71,7 +71,7 @@
 
 		<section class="parallax-content">
 			<div class="parallax">
-				<h1 class="content">Artistic</h1>
+				<h1 class="content animated zoomIn">Artistic</h1>
 			</div>
 		</section>
 
