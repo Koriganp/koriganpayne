@@ -21,12 +21,12 @@ require_once("../php/partials/head-utils.php");
 
 		<main class="container p-t-nav">
 			<div class="row row-flex content-wrap">
-				<div class="col content-panel">
+				<div class="col-6 content-panel">
 					<div>
 
 						<!-- Form -->
 
-						<form id="contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="post">
+						<form id="korigans-contact-form" action="<?php echo $PREFIX;?>../php/mailer.php" method="post">
 							<div class="form-group">
 								<label for="name">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
@@ -67,6 +67,7 @@ require_once("../php/partials/head-utils.php");
 							<!-- reCAPTCHA -->
 
 							<div class="g-recaptcha" data-sitekey="6LfjBzoUAAAAAI4lBx2PIQwRUeZfeTS9gur6t1Ft"></div>
+
 							<button class="btn btn-info" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-default" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
