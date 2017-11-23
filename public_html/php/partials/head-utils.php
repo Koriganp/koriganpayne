@@ -28,11 +28,20 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
 
-		<!-- My CSS -->
+		<!-- Google Fonts -->
 
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+
+		<!-- Font Awesome -->
+
 		<link rel="stylesheet" href="<?php echo $PREFIX;?>../font-awesome/css/font-awesome.min.css">
+
+		<!-- Animate.css -->
+
 		<link rel="stylesheet" href="<?php echo $PREFIX;?>../node_modules/animate.css/animate.min.css">
+
+		<!-- My CSS -->
+
 		<link href="<?php echo $PREFIX;?>styles/main.css" rel="stylesheet"/>
 
 		<!-- jQuery, Popper.js, Bootstrap JS -->
@@ -42,6 +51,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
+
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
