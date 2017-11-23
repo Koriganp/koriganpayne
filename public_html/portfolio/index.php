@@ -14,6 +14,7 @@ require_once("../php/partials/head-utils.php");
 	<!-- Add Background !!All Content goes here!!-->
 
 	<div class="bg">
+		main>
 
 
 
