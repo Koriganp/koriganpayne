@@ -117,10 +117,6 @@ require_once("php/partials/head-utils.php");
 
 	</section>
 
-		<!-- Simple scroll up button -->
-
-	<a href="#up" duration="-1000" height-hide="700" easing="easeInOutQuad" class="simplescrollup__button simplescrollup__button--hide"><i class="fa fa-angle-up fa-4x"></i></a>
-
 	<!-- Footer -->
 
 	<?php require_once("php/partials/footer.php");?>
