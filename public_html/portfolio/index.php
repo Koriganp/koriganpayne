@@ -14,7 +14,26 @@ require_once("../php/partials/head-utils.php");
 	<!-- Add Background !!All Content goes here!!-->
 
 	<div class="bg">
-		main>
+		<main>
+			<div class="row">
+				<div class="col-md-9">
+					<a href=""><img src="" alt=""></a>
+				</div>
+				<p class="justify-content-center col-md-3">This is a sample website for a Restaurant</p>
+			</div>
+			<div class="row">
+				<div class="col-md-9">
+					<a href=""><img src="" alt=""></a>
+				</div>
+				<p class="justify-content-center col-md-3">This is a sample website for a Law Office</p>
+			</div>
+			<div class="row">
+				<div class="col-md-9">
+					<a href=""><img src="" alt=""></a>
+				</div>
+				<p class="justify-content-center col-md-3">This is a sample website for a Landscaper</p>
+			</div>
+		</main>
 
 
 
