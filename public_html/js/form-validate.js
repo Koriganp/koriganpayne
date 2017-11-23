@@ -1,7 +1,21 @@
 $(document).ready(function(){
 
-	/* begin validation*/
-	$("#contact-form").validate({
+	/**
+	 * jQuery Validate Function
+	 *
+	 * This function provides front-end validation for your form.
+	 * If all tests set up here pass, the form data is AJAX submitted
+	 * to the mailer.php file.
+	 *
+	 * Update this file as needed for your form.
+	 * All ids and name values must match up to your form here.
+	 *
+	 * @author Rochelle Lewis <rlewis37@cnm.edu>
+	 * @coauthor Korigan Payne <koriganp@gmail.com>
+	 **/
+
+	/* begin validate function here */
+	$("#korigans-contact-form").validate({
 
 		// setup handling of form errors
 		debug: true,
@@ -9,7 +23,7 @@ $(document).ready(function(){
 		errorLabelContainer: "#output-area",
 		errorElement: "div",
 
-		// rules define what is good/bad input
+		// rules here define what is good or bad input
 		// each rule starts with the form input element's NAME attribute
 		rules: {
 			name: {
@@ -25,7 +39,7 @@ $(document).ready(function(){
 			}
 		},
 
-		// error messages to display to the end user
+		// error messages to display to the end user when rules above don't pass
 		messages: {
 			name: {
 				required: "Please enter your name."
@@ -40,6 +54,7 @@ $(document).ready(function(){
 			}
 		},
 
+		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
 			$("#contact-form").ajaxSubmit({
 				type: "POST",
@@ -60,6 +75,6 @@ $(document).ready(function(){
 			})
 		}
 
-	});/* end validate function */
+	});/* end validate function here */
 
 });/*end document.ready()*/
