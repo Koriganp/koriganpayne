@@ -16,12 +16,16 @@ require_once("../php/partials/head-utils.php");
 	<!-- Add Background !!All Content goes here!!-->
 
 	<div class="bg">
+		<div class="p-5">
+		</div>
 
 		<!-- Structure for Form -->
 
 		<main class="container p-t-nav">
 			<div class="row row-flex content-wrap">
-				<div class="col-6 content-panel">
+				<div class="col-2">
+				</div>
+				<div class="col-8 content-panel">
 					<div>
 
 						<!-- Form -->
@@ -66,10 +70,14 @@ require_once("../php/partials/head-utils.php");
 
 							<!-- reCAPTCHA -->
 
-							<div class="g-recaptcha" data-sitekey="6LfjBzoUAAAAAI4lBx2PIQwRUeZfeTS9gur6t1Ft"></div>
+							<div class="d-flex justify-content-center mt-5">
+								<div class="g-recaptcha" data-sitekey="6LfjBzoUAAAAAI4lBx2PIQwRUeZfeTS9gur6t1Ft"></div>
+							</div>
 
-							<button class="btn btn-info" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-							<button class="btn btn-default" type="reset"><i class="fa fa-ban"></i> Reset</button>
+							<div class="d-flex justify-content-center mt-3">
+								<button class="btn btn-info mr-1" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+								<button class="btn btn-default ml-1" type="reset"><i class="fa fa-ban"></i> Reset</button>
+							</div>
 						</form>
 
 						<!-- Space for output -->
@@ -81,9 +89,13 @@ require_once("../php/partials/head-utils.php");
 						</div>
 					</div>
 				</div>
+				<div class="col-2">
+				</div>
 			</div>
 		</main>
 
+		<div class="bigger">
+		</div>
 	</div>
 
 	<!-- Footer -->

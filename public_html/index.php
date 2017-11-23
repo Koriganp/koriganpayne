@@ -92,11 +92,11 @@ require_once("php/partials/head-utils.php");
 				<li data-target="#carouselIndicators" data-slide-to="3"></li>
 			</ol>
 			<div class="carousel-inner" role="listbox">
-				<div class="carousel-item active">
-					<img class="d-block w-50 ma" src="images/snake.jpg" alt="Image of Rattlesnake"/>
-				</div>
 				<div class="carousel-item">
 					<img class="d-block w-50 ma" src="images/aspen.jpg" alt="Image of Aspen Trees"/>
+				</div>
+				<div class="carousel-item active">
+					<img class="d-block w-50 ma" src="images/snake.jpg" alt="Image of Rattlesnake"/>
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-50 ma" src="images/cactus.jpg" alt="Image of Cactus"/>
