@@ -15,7 +15,7 @@ $(document).ready(function(){
 	 **/
 
 	/* begin validate function here */
-	$("#korigans-contact-form").validate({
+	$("#contact-form").validate({
 
 		// setup handling of form errors
 		debug: true,
@@ -56,9 +56,9 @@ $(document).ready(function(){
 
 		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
-			$("#korigans-contact-form").ajaxSubmit({
+			$("#contact-form").ajaxSubmit({
 				type: "POST",
-				url: $("#korigans-contact-form").attr("action"),
+				url: $("#contact-form").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
@@ -69,7 +69,7 @@ $(document).ready(function(){
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#korigans-contact-form")[0].reset();
+						$("#contact-form")[0].reset();
 					}
 				}
 			})

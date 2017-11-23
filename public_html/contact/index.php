@@ -30,7 +30,7 @@ require_once("../php/partials/head-utils.php");
 
 						<!-- Form -->
 
-						<form id="korigans-contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="post">
+						<form id="contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="post">
 							<div class="form-group">
 								<label for="name">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
@@ -95,6 +95,7 @@ require_once("../php/partials/head-utils.php");
 		</main>
 
 		<div class="bigger">
+			<p class="d-flex justify-content-center text-light mt-5">I'll be in touch soon!</p>
 		</div>
 	</div>
 
