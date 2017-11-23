@@ -41,13 +41,18 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-		<!-- Google reCAPTCHA -->
-
-		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- JavaScript Form Validator File -->
 
 		<script src="<?php echo $PREFIX;?>js/form-validate.js" type="text/javascript"></script>
+
+		<!-- Google reCAPTCHA -->
+
+		<script src="https://www.google.com/recaptcha/api.js"></script>
 
 		<!-- echo the $PAGE_TITLE variable here -->
 
