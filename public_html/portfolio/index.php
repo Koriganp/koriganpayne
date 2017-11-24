@@ -22,7 +22,7 @@ require_once("../php/partials/head-utils.php");
 					<div  id="law" class="col-md-8 my-5 pl-5 animated">
 						<a href="sample-sites/law-site/index.html" target="_blank"><img src="<?php echo $PREFIX;?>images/law-firm.jpg" alt="Law Firm Site"/></a>
 					</div>
-					<p id="lawText" class="col-md-4 text-dark my-5 animated">This is a sample website for law firm. You can view it <a href="sample-sites/law-site/index.html" target="_blank">here</a>, or you can just click on the image. If you like what you see, please <a href="<?php echo $PREFIX;?>contact/index.php">contact me</a>for a quote.</p>
+					<p id="lawText" class="col-md-4 text-dark my-5 animated">This is a sample website for law firm. You can view it <a href="sample-sites/law-site/index.html" target="_blank">here</a>, or you can just click on the image. If you like what you see, please <a href="<?php echo $PREFIX;?>contact/index.php">contact me</a> for a quote.</p>
 				</div>
 			</div>
 		</section>
@@ -35,9 +35,9 @@ require_once("../php/partials/head-utils.php");
 				<!-- This is the second demo website -->
 
 				<div class="row blank mt-5">
-					<p id="" class="col-md-4 text-dark my-5 animated">This is a sample website for a landscaping company. It is just a demo and not an actual site. You can view it <a href="sample-sites/" target="_blank">here</a>, or you can just click on the image. If you like what you see, please fill out the form on my <a href="<?php echo $PREFIX;?>contact/index.php">contact page</a>and I will get back to you with more info.</p>
+					<p id="landscapeText" class="col-md-4 text-dark my-5 animated">This is a sample website for a landscaping company. It is just a demo and not an actual site. You can view it <a href="sample-sites/" target="_blank">here</a>, or you can just click on the image. If you like what you see, please fill out the form on my <a href="<?php echo $PREFIX;?>contact/index.php">contact page</a>and I will get back to you with more info.</p>
 				</div>
-					<div  id="" class="col-md-8 my-5 pl-5 animated">
+					<div  id="landscape" class="col-md-8 my-5 pl-5 animated">
 						<a href="sample-sites/" target="_blank"><img src="<?php echo $PREFIX;?>images/" alt="Landscaping Site"/></a>
 					</div>
 				</div>
