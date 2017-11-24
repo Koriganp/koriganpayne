@@ -12,4 +12,12 @@ $(document).ready(function() {
 		$('#stand').addClass('bounceInDown');
 	}, {offset: '95%'});
 
+	$('#law').waypoint(function() {
+		$('#law').addClass('fadeInLeft');
+	}, {offset: '80%'});
+
+	$('#lawText').waypoint(function() {
+		$('#lawText').addClass('fadeInRight');
+	}, {offset: '80%'});
+
 });

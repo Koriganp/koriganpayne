@@ -155,3 +155,9 @@ body, html {
 .blank {
 	background: rgba(63, 127, 191, 0);
 }
+
+/*Center and align text to images*/
+#lawText {
+	padding-right: 12rem;
+	padding-top: 10rem;
+}
