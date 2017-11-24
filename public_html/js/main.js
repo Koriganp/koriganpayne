@@ -9,7 +9,7 @@ $(document).ready(function() {
 	}, {offset: '80%'});
 
 	$('#stand').waypoint(function() {
-		$('#stand').addClass('jello');
-	}, {offset: '70%'});
+		$('#stand').addClass('bounceInDown');
+	}, {offset: '95%'});
 
 });
