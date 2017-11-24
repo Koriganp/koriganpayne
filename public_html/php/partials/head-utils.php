@@ -64,6 +64,10 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<script src="https://www.google.com/recaptcha/api.js"></script>
 
+		<!-- Waypoints -->
+
+		<script src="<?php echo $PREFIX;?>js/jquery.waypoints.min.js"></script>
+
 		<!-- My Favicon -->
 
 		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $PREFIX;?>images/favicon/apple-touch-icon.png">
