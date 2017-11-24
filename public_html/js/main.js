@@ -20,4 +20,20 @@ $(document).ready(function() {
 		$('#lawText').addClass('fadeInRight');
 	}, {offset: '80%'});
 
+	$('#landscapeText').waypoint(function() {
+		$('#landscapeText').addClass('fadeInLeft');
+	}, {offset: '80%'});
+
+	$('#landscape').waypoint(function() {
+		$('#landscape').addClass('fadeInRight');
+	}, {offset: '80%'});
+
+	$('#restaurant').waypoint(function() {
+		$('#restaurant').addClass('fadeInLeft');
+	}, {offset: '80%'});
+
+	$('#restaurantText').waypoint(function() {
+		$('#restaurantText').addClass('fadeInRight');
+	}, {offset: '80%'});
+
 });
