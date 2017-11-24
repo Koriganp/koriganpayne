@@ -50,7 +50,7 @@ require_once("php/partials/head-utils.php");
 
 	<section class="parallax-content parallax-content-2">
 		<div class="parallax">
-			<h1 class="content">Web</h1>
+			<h1 id="web" class="content animated">Web</h1>
 		</div>
 	</section>
 
@@ -63,7 +63,7 @@ require_once("php/partials/head-utils.php");
 
 	<section class="parallax-content parallax-content-3">
 		<div class="parallax">
-			<h1  class="content">Design</h1>
+			<h1 id="design" class="content animated">Design</h1>
 		</div>
 	</section>
 
