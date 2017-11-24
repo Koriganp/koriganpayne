@@ -1,4 +1,8 @@
-/*Change font for page*/
+/********************/
+/*Universal for site*/
+/********************/
+
+/*change font for site*/
 body {
 	margin: 0;
 	padding: 0;
@@ -8,32 +12,9 @@ body {
 	text-align: justify;
 	background-color: black;
 }
-
+/*Set height for site*/
 body, html {
 	height: 100%;
-}
-
-.bg {
-	/* The image used */
-	background-image: url(../images/argyle-hills-blur-still.jpg);
-
-	/* Full height */
-	height: 80%;
-
-	/* Center and scale the image nicely */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/*Resize scrolling bar*/
-.bigger {
-padding-bottom: 12rem;
-}
-
-/*Center images in carousel*/
-.ma {
-	margin-left: 25%;
 }
 
 /*Scroll up button*/
@@ -124,4 +105,53 @@ padding-bottom: 12rem;
 		text-align: center;
 		text-shadow: 0 0 1rem gray;
 	}
+}
+
+/******************/
+/*Home page styles*/
+/******************/
+
+/*Resize scrolling bar*/
+.bigger {
+	padding-bottom: 12rem;
+}
+
+/*Center images in carousel*/
+.ma {
+	margin-left: 25%;
+}
+
+/*Move carousel indicators under images*/
+.carousel-indicators {
+	bottom:-3.125rem;
+}
+.carousel-inner {
+	margin-bottom:3.125rem;
+}
+
+/*********************/
+/*Contact Page Styles*/
+/*********************/
+
+/*Background*/
+.bg {
+	/* The image used */
+	background-image: url(../images/argyle-hills-blur-still.jpg);
+
+	/* height */
+	height: 80%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/***********************/
+/*Portfolio Page Styles*/
+/***********************/
+
+/*remove backgrounds from content elements*/
+.blank {
+	background: rgba(63, 127, 191, 0);
 }

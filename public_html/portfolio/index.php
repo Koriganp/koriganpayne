@@ -15,56 +15,51 @@ require_once("../php/partials/head-utils.php");
 
 		<section class="parallax-content">
 			<div class="parallax">
-				<h1 class="content animated zoomIn">Artistic</h1>
+
+				<!-- This is the first demo website -->
+
+				<div class="row blank">
+					<div class="col-md-9">
+						<a href=""><img src="" alt=""></a>
+					</div>
+					<p class="justify-content-center col-md-3 text-light">This is a sample website for a Restaurant</p>
+				</div>
 			</div>
 		</section>
-
-		<!-- This is the first demo website -->
-
-		<main>
-			<div class="row">
-				<div class="col-md-9">
-					<a href=""><img src="" alt=""></a>
-				</div>
-				<p class="justify-content-center col-md-3 text-light">This is a sample website for a Restaurant</p>
-			</div>
 
 			<!-- Parallax 2 -->
 
 			<section class="parallax-content parallax-content-2">
 				<div class="parallax">
-					<h1 class="content">Web</h1>
+
+					<!-- This is the second demo website -->
+
+					<div class="row blank">
+						<div class="col-md-9">
+							<a href=""><img src="" alt=""></a>
+						</div>
+						<p class="justify-content-center col-md-3 text-light">This is a sample website for a Law Office</p>
+					</div>
 				</div>
 			</section>
 
-			<!-- This is the second demo website -->
 
-			<div class="row">
-				<div class="col-md-9">
-					<a href=""><img src="" alt=""></a>
-				</div>
-				<p class="justify-content-center col-md-3 text-light">This is a sample website for a Law Office</p>
-			</div>
 
 			<!-- Parallax 3 -->
 
 			<section class="parallax-content parallax-content-3">
 				<div class="parallax">
-					<h1  class="content">Design</h1>
+
+					<!-- This is the third demo website -->
+
+					<div class="row blank">
+						<div class="col-md-9">
+							<a href=""><img src="" alt=""></a>
+						</div>
+						<p class="justify-content-center col-md-3 text-light">This is a sample website for a Landscaper</p>
+					</div>
 				</div>
 			</section>
-
-			<!-- This is the third demo website -->
-
-			<div class="row">
-				<div class="col-md-9">
-					<a href=""><img src="" alt=""></a>
-				</div>
-				<p class="justify-content-center col-md-3 text-light">This is a sample website for a Landscaper</p>
-			</div>
-		</main>
-
-
 
 	<!-- Footer -->
 

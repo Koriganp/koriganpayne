@@ -20,8 +20,6 @@ require_once("php/partials/head-utils.php");
 		</div>
 	</section>
 
-
-
 	<!-- Main box -->
 
 	<div class="jumbotron jumbotron-fluid bg-light m-0">
