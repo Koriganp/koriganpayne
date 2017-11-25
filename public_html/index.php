@@ -38,7 +38,7 @@ require_once("php/partials/head-utils.php");
 				<div class="col-md-6 col-lg-9">
 					<h2>Are you looking for a web developer?</h2>
 					<p>Hello! My name is Korigan Payne. I am an Albuquerque-based freelance web developer and I create attractive and functional websites for businesses and entrepreneurs. If I am not freelancing at some of Albuquerque's finest digital agencies, I am working remotely on projects for clients all over the world. I have a diverse set of skills, ranging from design, to HTML5 + CSS3 + Javascript, all the way to PHP.</p>
-					<p>I primarily use Angular and Bootstrap, but picking up a new framework or language isn't a problem. I am comfortable with developing on the frontend or backend, as well as setting up or managing infrastructure. Each of my designs begin with a blank canvas, which allows your content to guide the layout. I also create with responsiveness in mind, which will make your website accessible across all devices. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="contact/index.php">here</a>.</p>
+					<p>I primarily use Angular and Bootstrap, but picking up a new framework or language isn't a problem. I am comfortable with developing on the frontend or backend, as well as setting up or managing infrastructure. Each of my designs begin with a blank canvas, which allows your content to guide the layout. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="contact/index.php">here</a>.</p>
 				</div>
 			</div>
 		</div>
@@ -52,9 +52,22 @@ require_once("php/partials/head-utils.php");
 		</div>
 	</section>
 
-	<!-- Middle breaking bar -->
+	<!-- Middle content -->
 
-	<div class="jumbotron jumbotron-fluid bg-light m-0 bigger">
+	<div class="jumbotron jumbotron-fluid bg-light m-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-9">
+					<h2>What is responsiveness?</h2>
+					<p>I create every website with responsiveness in mind. What that means is that your website will look and function as if it was made for whatever device it is being viewed on, because it is!</p>
+					<p>Wide screen? No problem! Smart phone? No problem!</p>
+					<p>If you want to understand better, take a look at my <a href="portfolio/index.php">portfolio</a> of websites, and try changing the window size. You will see that every image and paragraph adjusts itself to fit nicely on whatever the size of window may be. If you are interested in working with me, feel free to <a href="">contact</a> me.</p>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<img class="mw-100" src="images/responsive.png" alt="Image of different screens"/>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Parallax 3 -->
