@@ -29,7 +29,7 @@ require_once("php/partials/head-utils.php");
 
 	<!-- About content -->
 
-	<section class="p-5 mt-0 text-light">
+	<section class="p-5 mt-0 darkness text-light">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-lg-3">
@@ -80,7 +80,7 @@ require_once("php/partials/head-utils.php");
 
 	<!-- End content -->
 
-	<section class="p-5 mt-0 text-light">
+	<section class="p-5 mt-0 darkness text-light">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12">

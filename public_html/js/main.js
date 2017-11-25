@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	//Home Page
+
 	// Activate heading animations on scroll
 	$('#web').waypoint(function() {
 		$('#web').addClass('zoomIn');
@@ -12,6 +14,17 @@ $(document).ready(function() {
 	$('#stand').waypoint(function() {
 		$('#stand').addClass('bounceInDown');
 	}, {offset: '95%'});
+
+	//Portfolio Page
+
+	//Activate heading animations on scroll
+	$('#static').waypoint(function() {
+		$('#static').addClass('zoomIn');
+	}, {offset: '80%'});
+
+	$('#para').waypoint(function() {
+		$('#para').addClass('zoomIn');
+	}, {offset: '80%'});
 
 	// hide elements on page load
 	$('#law').css('opacity', 0);

@@ -10,7 +10,7 @@ body {
 	font-size: 1em;
 	font-family: 'Raleway', sans-serif;
 	text-align: justify;
-	background-color: black;
+	background-color: white;
 }
 /*Set height for site*/
 body, html {
@@ -112,8 +112,8 @@ body, html {
 /******************/
 
 /*Resize scrolling bar*/
-.bigger {
-	padding-bottom: 12rem;
+.darkness {
+	background-color: black;
 }
 
 /*Center images in carousel*/
@@ -169,4 +169,20 @@ body, html {
 	padding-top: 10rem;
 }
 
+#law {
+	width: 80vw;
+}
 
+#landscape {
+	width: 80vw;
+}
+
+#restaurant {
+	width: 80vw;
+}
+
+.fit {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
