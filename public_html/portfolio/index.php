@@ -15,7 +15,7 @@ require_once("../php/partials/head-utils.php");
 
 		<section class="parallax-content">
 			<div class="parallax">
-				<h1 class="content animated zoomIn">Multipage</h1>
+				<h1 class="content animated zoomIn">Multi-page:</h1>
 			</div>
 		</section>
 
@@ -34,7 +34,7 @@ require_once("../php/partials/head-utils.php");
 
 		<section class="parallax-content parallax-content-2">
 			<div class="parallax">
-				<h1 id="static" class="content animated">Static</h1>
+				<h1 id="static" class="content animated">Static:</h1>
 			</div>
 		</section>
 
@@ -53,7 +53,7 @@ require_once("../php/partials/head-utils.php");
 
 		<section class="parallax-content parallax-content-3">
 			<div class="parallax">
-				<h1 id="para" class="content animated">Parallax</h1>
+				<h1 id="para" class="content animated">Parallax:</h1>
 			</div>
 		</section>
 
