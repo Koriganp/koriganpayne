@@ -176,14 +176,27 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 40px;
 	color: #fff;
 }
-.intro h1 {
-	color: #fff;
-	font-size: 4rem;
-	font-weight: 700;
-	letter-spacing: -1px;
-	margin-top: 0;
-	margin-bottom: 10px;
-	text-transform: uppercase;
+@media (max-width: 768px) {
+	.intro h1 {
+		color: #fff;
+		font-size: 4rem;
+		font-weight: 700;
+		letter-spacing: -1px;
+		margin-top: 0;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+}
+@media(min-width: 769px) {
+	.intro h1 {
+		color: #fff;
+		font-size: 12rem;
+		font-weight: 700;
+		letter-spacing: -1px;
+		margin-top: 0;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+}
 }
 .intro p {
 	color: #fff;

@@ -15,7 +15,11 @@ require_once("../php/partials/head-utils.php");
 
 		<section class="parallax-content">
 			<div class="parallax">
-				<h1 class="content animated zoomIn">Multi-page:</h1>
+				<h1 class="pt-5 port animated zoomIn">My Portfolio</h1>
+				<div class="port-content">
+					<p>This a sample of the different sites that I can build for you.</p>
+					<p>This first is an example multi-page site.</p>
+				</div>
 			</div>
 		</section>
 
@@ -34,7 +38,10 @@ require_once("../php/partials/head-utils.php");
 
 		<section class="parallax-content parallax-content-2">
 			<div class="parallax">
-				<h1 id="static" class="content animated">Static:</h1>
+				<h1 id="static" class="port animated pt-5">Another Example</h1>
+				<div class="port-content">
+					<p>This second example is of a single static page.</p>
+				</div>
 			</div>
 		</section>
 
@@ -53,7 +60,11 @@ require_once("../php/partials/head-utils.php");
 
 		<section class="parallax-content parallax-content-3">
 			<div class="parallax">
-				<h1 id="para" class="content animated">Parallax:</h1>
+				<h1 id="para" class="port animated pt-5">Final Example</h1>
+				<div class="port-content">
+					<p>This third example is of a single static page, with a parallax effect.</p>
+					<p>The images are layered differently than content.</p>
+				</div>
 			</div>
 		</section>
 

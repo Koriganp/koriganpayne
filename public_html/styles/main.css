@@ -84,6 +84,21 @@ body, html {
 		text-align: center;
 		text-shadow: 0 0 1rem gray;
 	}
+	.port {
+		color: white;
+		font-size: 4rem;
+		line-height: 15rem;
+		font-weight: 500;
+		text-align: center;
+		text-shadow: 0 0 1rem gray;
+	}
+	.port-content {
+		color: white;
+		font-size: 2rem;
+		line-height: 4rem;
+		text-align: center;
+		text-shadow: 0 0 1rem gray;
+	}
 }
 
 /*xs to 0*/
@@ -104,6 +119,19 @@ body, html {
 		font-weight: 700;
 		text-align: center;
 		text-shadow: 0 0 1rem gray;
+	}
+	.port {
+		color: white;
+		font-size: 3rem;
+		line-height: 10rem;
+		font-weight: 500;
+		text-align: center;
+	}
+	.port-content {
+		color: white;
+		font-size: 1.5rem;
+		line-height: 3rem;
+		text-align: center;
 	}
 }
 
