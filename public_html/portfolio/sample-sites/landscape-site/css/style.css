@@ -60,20 +60,20 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
 }
+
 hr {
 	height: 3px;
-	width: 70px;
+	width: 100%;
 	text-align: center;
 	position: relative;
 	background: #6aaf08;
-	margin: 0 auto;
-	margin-bottom: 20px;
+	margin: 0 auto 20px 0;
 	border: 0;
 }
+
 /* Navigation */
+
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -102,7 +102,6 @@ hr {
 }
 .on {
 	background-color: #333 !important;
-	padding: 0 !important;
 	padding: 15px 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -132,11 +131,10 @@ hr {
 	background-color: #6aaf08;
 	padding: 14px 20px;
 	letter-spacing: 1px;
-	margin: 0;
+	margin: 20px 0 0 0;
 	font-size: 17px;
 	font-weight: 400;
 	border-radius: 6px;
-	margin-top: 20px;
 	transition: all 0.3s;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
@@ -151,15 +149,16 @@ hr {
 }
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
-	outline-offset: none;
+	outline-offset: 0;
 }
+
 /* Header Section */
+
 .intro {
-	display: table;
-	width: 100%;
+	display: block;
+	height: 80%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) top center no-repeat;
-	background-color: #e5e5e5;
+	background: #e5e5e5 url(../img/intro-bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -170,7 +169,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(112,173,71,0.4) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(112,173,71,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(112,173,71,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#6670ad47', GradientType=0 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#6670ad47', GradientType=0 ); /* IE6-9 */
 }
 .intro .fa {
 	font-size: 94px;
@@ -179,7 +178,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 }
 .intro h1 {
 	color: #fff;
-	font-size: 64px;
+	font-size: 4rem;
 	font-weight: 700;
 	letter-spacing: -1px;
 	margin-top: 0;
@@ -455,7 +454,6 @@ label {
 	line-height: 1.42857143;
 	color: #444;
 	background-color: #fff;
-	background-image: none;
 	border: 1px solid #ddd;
 	border-radius: 0;
 	-webkit-box-shadow: none;
