@@ -12,7 +12,7 @@
 
 		<!-- Scrolling attachment -->
 
-		<script src="<?php echo $PREFIX;?>../node_modules/simplescrollup/simplescrollup.js"></script>
+		<script src="<?php echo $PREFIX;?>js/simplescrollup.js"></script>
 
 	</body>
 </html>
