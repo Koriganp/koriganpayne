@@ -13,13 +13,10 @@ require_once("../php/partials/head-utils.php");
 
 		<!-- Parallax -->
 
-		<section class="parallax-content">
+		<section class="parallax-content narrow">
 			<div class="parallax">
-				<h1 class="pt-5 port animated zoomIn">My Portfolio</h1>
-				<div class="port-content">
-					<p>This a sample of the different sites that I can build for you.</p>
-					<p>This first is an example multi-page site.</p>
-				</div>
+				<h1 class="port-1">My Portfolio</h1>
+				<h2 class="port animated zoomIn move-down">Multi-page:</h2>
 			</div>
 		</section>
 
@@ -36,12 +33,9 @@ require_once("../php/partials/head-utils.php");
 
 		<!-- Parallax 2 -->
 
-		<section class="parallax-content parallax-content-2">
+		<section class="parallax-content parallax-content-2 narrow">
 			<div class="parallax">
-				<h1 id="static" class="port animated pt-5">Another Example</h1>
-				<div class="port-content">
-					<p>This second example is of a single static page.</p>
-				</div>
+				<h2 id="static" class="port animated pt-5 move-down-more">Simple Static:</h2>
 			</div>
 		</section>
 
@@ -58,13 +52,9 @@ require_once("../php/partials/head-utils.php");
 
 		<!-- Parallax 3 -->
 
-		<section class="parallax-content parallax-content-3">
+		<section class="parallax-content parallax-content-3 narrow">
 			<div class="parallax">
-				<h1 id="para" class="port animated pt-5">Final Example</h1>
-				<div class="port-content">
-					<p>This third example is of a single static page, with a parallax effect.</p>
-					<p>The images are layered differently than content.</p>
-				</div>
+				<h2 id="para" class="port animated pt-5 move-down-more">Static Parallax:</h2>
 			</div>
 		</section>
 
@@ -75,7 +65,7 @@ require_once("../php/partials/head-utils.php");
 						<div  id="restaurant" class="col-s-12 col-md-6 col-lg-8 my-5 animated">
 							<a href="sample-sites/restaurant-site/index.html" target="_blank"><img src="<?php echo $PREFIX;?>images/restaurant-site.jpg" class="fit" alt="Restaurant Site"/></a>
 						</div>
-						<p id="restaurantText" class="col-s-12 col-md-6 col-lg-4 text-dark my-5 pl-5 animated">This is a sample website for a restaurant. It is also not a real site, just a template to show you what your potential site could look like. You can view it <a href="sample-sites/restaurant-site/index.html" target="_blank">here</a>, or you can just click on the image. If you like what you see, please <a href="<?php echo $PREFIX;?>contact/index.php">contact me</a>.</p>
+						<p id="restaurantText" class="col-s-12 col-md-6 col-lg-4 text-dark my-5 pl-5 animated">This is a sample website for a restaurant. It is also not a real site, just a template to show you what your potential site could look like. It utilizes parallax, where images are layered differently than content, creating a 3-D effect. You can view it <a href="sample-sites/restaurant-site/index.html" target="_blank">here</a>, or you can just click on the image. If you like what you see, please <a href="<?php echo $PREFIX;?>contact/index.php">contact me</a>.</p>
 					</div>
 				</div>
 
