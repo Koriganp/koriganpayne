@@ -20,11 +20,11 @@ $(document).ready(function() {
 	//Activate heading animations on scroll
 	$('#static').waypoint(function() {
 		$('#static').addClass('zoomIn');
-	}, {offset: '80%'});
+	}, {offset: '95%'});
 
 	$('#para').waypoint(function() {
 		$('#para').addClass('zoomIn');
-	}, {offset: '80%'});
+	}, {offset: '95%'});
 
 	// hide elements on page load
 	$('#law').css('opacity', 0);
