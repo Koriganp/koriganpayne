@@ -34,11 +34,11 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Font Awesome -->
 
-		<link rel="stylesheet" href="<?php echo $PREFIX;?>../font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>../font-awesome/css/font-awesome.min.css"/>
 
 		<!-- Animate.css -->
 
-		<link rel="stylesheet" href="<?php echo $PREFIX;?>../node_modules/animate.css/animate.min.css">
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>../node_modules/animate.css/animate.min.css"/>
 
 		<!-- My CSS -->
 
@@ -74,12 +74,12 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- My Favicon -->
 
-		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $PREFIX;?>images/favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $PREFIX;?>images/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $PREFIX;?>images/favicon/favicon-16x16.png">
-		<link rel="manifest" href="<?php echo $PREFIX;?>images/favicon/manifest.json">
-		<link rel="mask-icon" href="<?php echo $PREFIX;?>images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-		<meta name="theme-color" content="#ffffff">
+		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $PREFIX;?>images/favicon/apple-touch-icon.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $PREFIX;?>images/favicon/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $PREFIX;?>images/favicon/favicon-16x16.png"/>
+		<link rel="manifest" href="<?php echo $PREFIX;?>images/favicon/manifest.json"/>
+		<link rel="mask-icon" href="<?php echo $PREFIX;?>images/favicon/safari-pinned-tab.svg" color="#5bbad5"/>
+		<meta name="theme-color" content="#ffffff"/>
 
 		<!-- echo the $PAGE_TITLE variable here -->
 
