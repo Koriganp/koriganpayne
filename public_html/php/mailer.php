@@ -5,7 +5,8 @@
  * This file handles secure mail transport using the Swiftmailer
  * library with Google reCAPTCHA integration.
  *
- * @author Korigan Payne <koriganp@gmail.com>
+ * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @coauthor Korigan Payne <koriganp@gmail.com>
  **/
 
 /**
