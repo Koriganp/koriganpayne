@@ -30,7 +30,7 @@ require_once("../php/partials/head-utils.php");
 
 						<!-- Form -->
 
-						<form id="contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="post">
+						<form id="contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="post" novalidate>
 							<div class="form-group">
 								<label for="name">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
@@ -74,6 +74,8 @@ require_once("../php/partials/head-utils.php");
 								<div class="g-recaptcha" data-sitekey="6LfjBzoUAAAAAI4lBx2PIQwRUeZfeTS9gur6t1Ft"></div>
 							</div>
 
+							<!-- Submit/Reset Buttons -->
+
 							<div class="d-flex justify-content-center mt-3">
 								<button class="btn btn-info mr-1" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 								<button class="btn btn-default ml-1" type="reset"><i class="fa fa-ban"></i> Reset</button>
@@ -83,7 +85,7 @@ require_once("../php/partials/head-utils.php");
 						<!-- Space for output -->
 
 						<div class="row">
-							<div class="col-xs-12">
+							<div class="col">
 								<div id="output-area"></div>
 							</div>
 						</div>
