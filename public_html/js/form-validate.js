@@ -33,9 +33,13 @@ $(document).ready(function(){
 				email: true,
 				required: true
 			},
+			subject: {
+				required: true,
+				maxlength: 100
+			},
 			message: {
 				required: true,
-				maxlength: 2000
+				maxlength: 5000
 			}
 		},
 
@@ -48,9 +52,13 @@ $(document).ready(function(){
 				email: "Please enter a valid email address.",
 				required: "Please enter a valid email address."
 			},
+			subject: {
+				required: "Please enter a subject.",
+				maxlength: "Your subject is too long."
+			},
 			message: {
 				required: "Please enter a message.",
-				maxlength: "2000 characters max."
+				maxlength: "Message too long, 5000 characters max."
 			}
 		},
 

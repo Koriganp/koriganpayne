@@ -64,7 +64,7 @@ require_once("../php/partials/head-utils.php");
 									<div class="input-group-addon">
 										<i class="fa fa-comment" aria-hidden="true"></i>
 									</div>
-									<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+									<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
 								</div>
 							</div>
 
