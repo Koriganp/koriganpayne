@@ -21,7 +21,7 @@ require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
  * @param string $secret your secret reCAPTCHA API key
  * @param array $MAIL_RECIPIENTS array of email addresses and corresponding recipient names to send form responses to
  *
- * This file has been gitignored!
+ * This file has been .gitignored!
  **/
 require_once("mail-config.php");
 
