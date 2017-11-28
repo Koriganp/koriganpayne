@@ -1,0 +1,52 @@
+{
+  "_from": "simplescrollup",
+  "_id": "simplescrollup@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-/DE7hhpTKWFXXEcF6sOWP5z2tMLFFCh7aC1fw4qCJWo1+CKgPcf8N9TwWlQqHPtK/rs0VzbbXN51gIyhU33RMw==",
+  "_location": "/simplescrollup",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "simplescrollup",
+    "name": "simplescrollup",
+    "escapedName": "simplescrollup",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/simplescrollup/-/simplescrollup-1.1.0.tgz",
+  "_shasum": "040d2a898fb46862161c223262f53752c2e95455",
+  "_spec": "simplescrollup",
+  "_where": "C:\\Users\\korig\\Desktop\\bootcamp\\git\\pwp-korigan-payne",
+  "author": {
+    "name": "Andros Fenollosa"
+  },
+  "bugs": {
+    "url": "https://github.com/tanrax/simplescrollup/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Simple plugin to animate scrolling when you return to the top of the page ",
+  "homepage": "https://github.com/tanrax/simplescrollup#readme",
+  "keywords": [
+    "plugin",
+    "scroll",
+    "animated"
+  ],
+  "license": "ISC",
+  "main": "simplescrollup.js",
+  "name": "simplescrollup",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanrax/simplescrollup.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
