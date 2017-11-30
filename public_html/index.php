@@ -2,7 +2,7 @@
 /*grab current directory*/
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
-$PAGE_TITLE = "Korigan Payne - Web Developer";
+$PAGE_TITLE = "Korigan Payne | Web Developer";
 /*load the HTML head tag: head-utils.php*/
 require_once("php/partials/head-utils.php");
 ?>
