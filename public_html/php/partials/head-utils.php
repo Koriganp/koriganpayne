@@ -81,6 +81,16 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<link rel="mask-icon" href="<?php echo $PREFIX;?>images/favicon/safari-pinned-tab.svg" color="#5bbad5"/>
 		<meta name="theme-color" content="#ffffff"/>
 
+		<!-- For Google Analytics -->
+
+		<script type="application/ld+json"> {
+			"@context": "http://schema.org",
+			"@type": "Person",
+			"url": "https://koriganpayne.com",
+			"name": "Korigan Payne",
+			}
+		</script>
+
 		<!-- echo the $PAGE_TITLE variable here -->
 
 		<title><?php echo $PAGE_TITLE;?></title>
