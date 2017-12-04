@@ -103,4 +103,4 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<title><?php echo $PAGE_TITLE;?></title>
 	</head>
 	<body class="sfooter">
-		<div class="sfooter-content"
+		<div class="sfooter-content">
