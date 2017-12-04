@@ -99,6 +99,10 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		}
 		</script>
 
+		<!-- For Search Engine Optimization -->
+
+		<meta name="msvalidate.01" content="B580EDB9DDB6265064064D986A593D53" />
+
 		<!-- echo the $PAGE_TITLE variable here -->
 
 		<title><?php echo $PAGE_TITLE;?></title>
