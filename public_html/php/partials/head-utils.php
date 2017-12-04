@@ -89,16 +89,15 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 			"@type": "Person",
 			"name": "Korigan Payne",
 			"jobTitle": "Web Developer",
+			"image" : "https://www.koriganpayne.com/images/profile.jpg",
 			"address": {
 				"@type" : "PostalAddress",
 				"addressLocality": "Albuquerque"
 			}
-			"image" : "https://koriganpayne.com/images/profile.jpg",
 			"url": "https://koriganpayne.com",
 			"sameAs" : ["https://twitter.com/KoriganP?lang=en",
 			"https://github.com/Koriganp",
-			"https://www.linkedin.com/in/korigan-payne-0570066b",
-			"https://www.facebook.com/people/Korigan-Payne/100004819783390"]
+			"https://www.linkedin.com/in/korigan-payne-0570066b"]
 		}
 		</script>
 

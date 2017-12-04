@@ -37,8 +37,8 @@ require_once("php/partials/head-utils.php");
 				</div>
 				<div class="col-md-6 col-lg-9">
 					<h2>Are you looking for a web developer?</h2>
-					<p itemscope itemtype="http://schema.org/Person, http://schema.org/PostalAddress">Hello! My name is <span itemprop="name">Korigan Payne</span>. I am an <span itemprop="addressLocality">Albuquerque</span>-based freelance <span itemprop="jobTitle">web developer</span> and I create attractive and functional websites for businesses and entrepreneurs. If I am not freelancing at some of Albuquerque's finest digital agencies, I am working remotely on projects for clients all over the world. I have a diverse set of skills, ranging from design, to HTML5 + CSS3 + Javascript, all the way to PHP.</p>
-					<p>I primarily use Angular and Bootstrap, but picking up a new framework or language isn't a problem. I am comfortable with developing on the frontend or backend, as well as setting up or managing infrastructure. Each of my designs begin with a blank canvas, which allows your content to guide the layout. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="contact/index.php">here</a>.</p>
+					<p itemscope itemtype="http://schema.org/Person">Hello! My name is <span itemprop="name">Korigan Payne</span>. I am an Albuquerque-based freelance <span itemprop="jobTitle">web developer</span> and I create attractive and functional websites for businesses and entrepreneurs. If I am not freelancing at some of Albuquerque's finest digital agencies, I am working remotely on projects for clients all over the world. I have a diverse set of skills, ranging from design, to HTML5 + CSS3 + Javascript, all the way to PHP.</p>
+					<p itemscope itemtype="http://schema.org/Person">I primarily use Angular and Bootstrap, but picking up a new framework or language isn't a problem. I am comfortable with developing on the frontend or backend, as well as setting up or managing infrastructure. Each of my designs begin with a blank canvas, which allows your content to guide the layout. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a itemprop="url" href="contact/index.php">here</a>.</p>
 				</div>
 			</div>
 		</div>
@@ -88,7 +88,7 @@ require_once("php/partials/head-utils.php");
 					<p>If you need custom images for your website showcasing features, people, or a beautiful shot of your physical location, not only am I a web developer, but I am also a photographer. I do things differently than other photographers might. Beyond simply taking a nice picture, I take a step back to observe and capture all the emotion and unique details that will make the images on <em>your</em> site</p>
 					<p id="stand" class="display-4 text-center animated">STAND OUT</p>
 					<p class="text-center">from other sites in a similar market.</p>
-					<p>I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of your custom image and the ability to transform an ordinary image into an extraordinary piece of art. I only use professional equipment and this benefit is included with the design of your website when you <a href="contact/index.php">hire me!</a></p>
+					<p itemscope itemtype="http://schema.org/PostalAddress">I have over five years experience working with Adobe Photoshop, Lightroom, and Illustrator which will ensure the quality of your custom image and the ability to transform an ordinary image into an extraordinary piece of art. I only use professional equipment and this benefit is included with the design of your website if you live in <span itemprop="addressLocality">Albuquerque</span> when you <a href="contact/index.php">hire me!</a></p>
 				</div>
 			</div>
 		</div>
