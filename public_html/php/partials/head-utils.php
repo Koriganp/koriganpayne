@@ -83,12 +83,13 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- For Google Analytics -->
 
-		<script type="application/ld+json"> {
+		<script type="application/ld+json">
+		{
 			"@context": "http://schema.org",
 			"@type": "Person",
-			"url": "https://koriganpayne.com",
 			"name": "Korigan Payne",
-			}
+			"url": "https://koriganpayne.com"
+		}
 		</script>
 
 		<!-- echo the $PAGE_TITLE variable here -->
