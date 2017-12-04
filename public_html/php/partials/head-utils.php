@@ -88,7 +88,13 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 			"@context": "http://schema.org",
 			"@type": "Person",
 			"name": "Korigan Payne",
-			"url": "https://koriganpayne.com"
+			"jobTitle": "Web Developer",
+			"image" : "https://koriganpayne.com/images/profile.jpg",
+			"url": "https://koriganpayne.com",
+			"sameAs" : ["https://twitter.com/KoriganP?lang=en",
+			"https://github.com/Koriganp",
+			"https://www.linkedin.com/in/korigan-payne-0570066b",
+			"https://www.facebook.com/people/Korigan-Payne/100004819783390"]
 		}
 		</script>
 
