@@ -89,7 +89,10 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 			"@type": "Person",
 			"name": "Korigan Payne",
 			"jobTitle": "Web Developer",
-			"location": "Albuquerque",
+			"address": {
+				"@type" : "PostalAddress",
+				"addressLocality": "Albuquerque"
+			}
 			"image" : "https://koriganpayne.com/images/profile.jpg",
 			"url": "https://koriganpayne.com",
 			"sameAs" : ["https://twitter.com/KoriganP?lang=en",
