@@ -93,7 +93,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 			"address": {
 				"@type" : "PostalAddress",
 				"addressLocality": "Albuquerque"
-			}
+			},
 			"url": "https://koriganpayne.com",
 			"sameAs" : ["https://twitter.com/KoriganP?lang=en",
 			"https://github.com/Koriganp",
