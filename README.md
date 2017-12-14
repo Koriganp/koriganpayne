@@ -43,3 +43,18 @@ Your score has been bumped to [Tier III](https://bootcamp-coders.cnm.edu/project
 
 ## Milestone 2&beta; Feedback
 Since we already went over the changes, your PWP has passed milestone 2&beta; with a [TierIV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Great job!
+
+## Milestone III 
+ 
+ Your PWP is beautiful. the design is consistent throughout the site and your color scheme really makes the pages standout. I also was impressed that you took the initiative to create dummy sites for your portfolio. There is one thing I did not like. Having the red bar visible through the bottom half of the page distracts from the whole website. I had a really hard time focusing on the responsive design section on the main page. The portfolio section is worst the whole page is physically jarring.  Throwing tons color on the page at a  point takes away from the site. That is why it is important to keep things simple and not embrace the Microsoft design scheme.
+ 
+ ### Grade Tier IV 
+ 
+ **Final Grade 
+ 
+ Milestone 1 - 20%: Tier III 40(0.2) = 8 
+ Milestone 2a - 20%: Tier II 30(0.2) = 6 
+ Milestone 2b - 10%: Tier III 30(0.1) = 3 
+ Milestone 3 - 50%: Tier III 40(0.5) = 20 
+ Final 37/40 or about an A- to B+
+
