@@ -107,7 +107,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Additional Scripts -->
 
-<!--		<script src="https://widget.battleforthenet.com/widget.js" async></script>-->
+		<script src="https://widget.battleforthenet.com/widget.js" async></script>
 
 		<!-- echo the $PAGE_TITLE variable here -->
 
