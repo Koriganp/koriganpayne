@@ -6,7 +6,7 @@
 
 		<footer class="footer mt-0">
 			<div class="bg-light text-dark nav justify-content-center p-5">
-				<p>&copy; 2017 Korigan Payne</p>
+				<p>&copy; 2018 Korigan Payne</p>
 			</div>
 		</footer>
 
