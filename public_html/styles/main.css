@@ -77,6 +77,9 @@ body, html {
 	.parallax-content-3 {
 		background-image: url(../images/argyle-hills-red-still.jpg);
 	}
+	.parallax-content-4 .parallax:before {
+		background-image: url(../images/argyle-hills-blur-still.jpg);
+	}
 	.content {
 		color: white;
 		font-size: 12rem;
@@ -113,6 +116,9 @@ body, html {
 	}
 	.parallax-content-3 .parallax:before {
 		background-image: url(../images/argyle-hills-red-still.jpg);
+	}
+	.parallax-content-4 .parallax:before {
+		background-image: url(../images/argyle-hills-blur-still.jpg);
 	}
 	.content {
 		color: white;
