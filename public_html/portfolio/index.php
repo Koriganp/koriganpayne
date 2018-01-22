@@ -69,6 +69,25 @@ require_once("../php/partials/head-utils.php");
 					</div>
 				</div>
 
+		<!-- Parallax 4 -->
+
+		<section class="parallax-content parallax-content-4 narrow">
+			<div class="parallax">
+				<h2 id="wp" class="port animated pt-5 move-down-more">Simple WordPress</h2>
+			</div>
+		</section>
+
+				<!-- This is the fourth demo site -->
+
+				<div class="container bg-white">
+					<div class="row bg-white">
+						<div  id="wordpress" class="col-s-12 col-md-6 col-lg-8 my-5 animated">
+							<a href="https://designbykorigan.com" target="_blank"><img src="<?php echo $PREFIX;?>images/wp.jpg" class="fit" alt="Wordpress Site"/></a>
+						</div>
+						<p id="wordPressText" class="col-s-12 col-md-6 col-lg-4 text-dark my-5 pl-5 animated">This is one of the websites for my business. It is a WordPress site. It uses jQuery and a video background for a clean and attractive look and feel. You can view it <a href="https://designbykorigan.com" target="_blank">here</a>, or you can just click on the image. If you like what you see, please <a href="<?php echo $PREFIX;?>contact/index.php">contact me</a>.</p>
+					</div>
+				</div>
+
 	<!-- Footer -->
 
 <?php require_once("../php/partials/footer.php");?>
