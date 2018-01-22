@@ -208,6 +208,10 @@ body, html {
 	padding-top: 10rem;
 }
 
+#wordPressText {
+	padding-top: 10rem;
+}
+
 #law {
 	width: 80vw;
 }
@@ -217,6 +221,10 @@ body, html {
 }
 
 #restaurant {
+	width: 80vw;
+}
+
+#wordPress {
 	width: 80vw;
 }
 
