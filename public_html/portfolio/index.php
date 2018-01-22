@@ -16,11 +16,30 @@ require_once("../php/partials/head-utils.php");
 		<section class="parallax-content narrow">
 			<div class="parallax">
 				<h1 class="port-1">My Portfolio</h1>
-				<h2 class="port animated zoomIn move-down">Multi-page:</h2>
+				<h2 class="port animated zoomIn move-down">Simple WordPress:</h2>
 			</div>
 		</section>
 
-				<!-- This is the first demo website -->
+				<!-- This is the portfolio website -->
+
+				<div class="container bg-white">
+					<div class="row bg-white">
+						<p id="wordPressText" class="col-s-12 col-md-6 col-lg-4 text-dark my-5 pl-5 animated">This is one of the websites for my business. It is a WordPress site. It uses jQuery and a video background for a clean and attractive look and feel. You can view it <a href="https://designbykorigan.com" target="_blank">here</a>, or you can just click on the image. If you like what you see, please <a href="<?php echo $PREFIX;?>contact/index.php">contact me</a>.</p>
+						<div  id="wordPress" class="col-s-12 col-md-6 col-lg-8 my-5 animated">
+							<a href="https://designbykorigan.com" target="_blank"><img src="<?php echo $PREFIX;?>images/wp.jpg" class="fit" alt="Wordpress Site"/></a>
+						</div>
+					</div>
+				</div>
+
+	<!-- Parallax 2 -->
+
+		<section class="parallax-content parallax-content-2 narrow">
+			<div class="parallax">
+				<h2 id="wp" class="port animated pt-5 move-down-more">Multi-page:</h2>
+			</div>
+		</section>
+
+	<!-- This is the second demo site -->
 
 				<div class="container bg-white">
 					<div class="row bg-white">
@@ -31,15 +50,15 @@ require_once("../php/partials/head-utils.php");
 					</div>
 				</div>
 
-		<!-- Parallax 2 -->
+		<!-- Parallax 3 -->
 
-		<section class="parallax-content parallax-content-2 narrow">
+		<section class="parallax-content parallax-content-3 narrow">
 			<div class="parallax">
 				<h2 id="static" class="port animated pt-5 move-down-more">Simple Static:</h2>
 			</div>
 		</section>
 
-				<!-- This is the second demo website -->
+				<!-- This is the third demo website -->
 
 				<div class="container bg-white">
 					<div class="row bg-white">
@@ -50,15 +69,15 @@ require_once("../php/partials/head-utils.php");
 					</div>
 				</div>
 
-		<!-- Parallax 3 -->
+		<!-- Parallax 4 -->
 
-		<section class="parallax-content parallax-content-3 narrow">
+		<section class="parallax-content parallax-content-4 narrow">
 			<div class="parallax">
 				<h2 id="para" class="port animated pt-5 move-down-more">Static Parallax:</h2>
 			</div>
 		</section>
 
-				<!-- This is the third demo website -->
+				<!-- This is the fourth demo website -->
 
 				<div class="container bg-white">
 					<div class="row bg-white">
@@ -69,24 +88,6 @@ require_once("../php/partials/head-utils.php");
 					</div>
 				</div>
 
-		<!-- Parallax 4 -->
-
-		<section class="parallax-content parallax-content-4 narrow">
-			<div class="parallax">
-				<h2 id="wp" class="port animated pt-5 move-down-more">Simple WordPress:</h2>
-			</div>
-		</section>
-
-				<!-- This is the fourth demo site -->
-
-				<div class="container bg-white">
-					<div class="row bg-white">
-						<p id="wordPressText" class="col-s-12 col-md-6 col-lg-4 text-dark my-5 pl-5 animated">This is one of the websites for my business. It is a WordPress site. It uses jQuery and a video background for a clean and attractive look and feel. You can view it <a href="https://designbykorigan.com" target="_blank">here</a>, or you can just click on the image. If you like what you see, please <a href="<?php echo $PREFIX;?>contact/index.php">contact me</a>.</p>
-						<div  id="wordPress" class="col-s-12 col-md-6 col-lg-8 my-5 animated">
-							<a href="https://designbykorigan.com" target="_blank"><img src="<?php echo $PREFIX;?>images/wp.jpg" class="fit" alt="Wordpress Site"/></a>
-						</div>
-					</div>
-				</div>
 
 	<!-- Footer -->
 
