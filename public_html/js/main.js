@@ -39,6 +39,10 @@ $(document).ready(function() {
 
 	$('#restaurantText').css('opacity', 0);
 
+	$('#wordPress').css('opacity', 0);
+
+	$('#wordPressText').css('opacity', 0);
+
 	//Animate objects as they appear on screen
 	$('#law').waypoint(function() {
 		$('#law').addClass('fadeInLeft');
@@ -62,6 +66,14 @@ $(document).ready(function() {
 
 	$('#restaurantText').waypoint(function() {
 		$('#restaurantText').addClass('fadeInRight');
+	}, {offset: '80%'});
+
+	$('#wordPressText').waypoint(function() {
+		$('#wordPressText').addClass('fadeInLeft');
+	}, {offset: '80%'});
+
+	$('#wordPress').waypoint(function() {
+		$('#wordPress').addClass('fadeInRight');
 	}, {offset: '80%'});
 
 });
