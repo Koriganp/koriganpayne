@@ -26,6 +26,10 @@ $(document).ready(function() {
 		$('#para').addClass('zoomIn');
 	}, {offset: '95%'});
 
+	$('#wp').waypoint(function() {
+		$('#wp').addClass('zoomIn');
+	}, {offset: '95%'});
+
 	// hide elements on page load
 	$('#law').css('opacity', 0);
 

@@ -73,7 +73,7 @@ require_once("../php/partials/head-utils.php");
 
 		<section class="parallax-content parallax-content-4 narrow">
 			<div class="parallax">
-				<h2 id="wp" class="port animated pt-5 move-down-more">Simple WordPress</h2>
+				<h2 id="wp" class="port animated pt-5 move-down-more">Simple WordPress:</h2>
 			</div>
 		</section>
 

@@ -77,7 +77,7 @@ body, html {
 	.parallax-content-3 {
 		background-image: url(../images/argyle-hills-red-still.jpg);
 	}
-	.parallax-content-4 .parallax:before {
+	.parallax-content-4 {
 		background-image: url(../images/argyle-hills-blur-still.jpg);
 	}
 	.content {
