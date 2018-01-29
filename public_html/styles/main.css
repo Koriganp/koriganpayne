@@ -196,24 +196,25 @@ body, html {
 }
 
 /*Center and align text to images*/
+
+#wordPressText {
+	padding-top: 10rem;
+}
+
+#wordPress {
+	width: 80vw;
+}
+
+#law {
+	width: 80vw;
+}
+
 #lawText {
 	padding-top: 10rem;
 }
 
 #landscapeText {
 	padding-top: 10rem;
-}
-
-#restaurantText {
-	padding-top: 10rem;
-}
-
-#wordPressText {
-	padding-top: 10rem;
-}
-
-#law {
-	width: 80vw;
 }
 
 #landscape {
@@ -224,7 +225,15 @@ body, html {
 	width: 80vw;
 }
 
-#wordPress {
+#restaurantText {
+	padding-top: 10rem;
+}
+
+#csquareText {
+	padding-top: 8rem;
+}
+
+#csquare {
 	width: 80vw;
 }
 

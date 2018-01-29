@@ -18,6 +18,11 @@ $(document).ready(function() {
 	//Portfolio Page
 
 	//Activate heading animations on scroll
+
+	$('#multi').waypoint(function() {
+		$('#multi').addClass('zoomIn');
+	}, {offset: '95%'});
+
 	$('#static').waypoint(function() {
 		$('#static').addClass('zoomIn');
 	}, {offset: '95%'});
@@ -26,11 +31,16 @@ $(document).ready(function() {
 		$('#para').addClass('zoomIn');
 	}, {offset: '95%'});
 
-	$('#wp').waypoint(function() {
-		$('#wp').addClass('zoomIn');
+	$('#seo').waypoint(function() {
+		$('#seo').addClass('zoomIn');
 	}, {offset: '95%'});
 
 	// hide elements on page load
+
+	$('#wordPressText').css('opacity', 0);
+
+	$('#wordPress').css('opacity', 0);
+
 	$('#law').css('opacity', 0);
 
 	$('#lawText').css('opacity', 0);
@@ -43,11 +53,21 @@ $(document).ready(function() {
 
 	$('#restaurantText').css('opacity', 0);
 
-	$('#wordPress').css('opacity', 0);
+	$('#csquareText').css('opacity', 0);
 
-	$('#wordPressText').css('opacity', 0);
+	$('#csquare').css('opacity', 0);
+
 
 	//Animate objects as they appear on screen
+
+	$('#wordPressText').waypoint(function() {
+		$('#wordPressText').addClass('fadeInLeft');
+	}, {offset: '80%'});
+
+	$('#wordPress').waypoint(function() {
+		$('#wordPress').addClass('fadeInRight');
+	}, {offset: '80%'});
+
 	$('#law').waypoint(function() {
 		$('#law').addClass('fadeInLeft');
 	}, {offset: '80%'});
@@ -72,12 +92,12 @@ $(document).ready(function() {
 		$('#restaurantText').addClass('fadeInRight');
 	}, {offset: '80%'});
 
-	$('#wordPressText').waypoint(function() {
-		$('#wordPressText').addClass('fadeInLeft');
+	$('#csquareText').waypoint(function() {
+		$('#csquareText').addClass('fadeInLeft');
 	}, {offset: '80%'});
 
-	$('#wordPress').waypoint(function() {
-		$('#wordPress').addClass('fadeInRight');
+	$('#csquare').waypoint(function() {
+		$('#csquare').addClass('fadeInRight');
 	}, {offset: '80%'});
 
 });
