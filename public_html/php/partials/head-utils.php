@@ -105,10 +105,6 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<meta name="msvalidate.01" content="B580EDB9DDB6265064064D986A593D53" />
 
-		<!-- Additional Scripts -->
-
-<!--		<script src="https://widget.battleforthenet.com/widget.js" async></script>-->
-
 		<!-- echo the $PAGE_TITLE variable here -->
 
 		<title><?php echo $PAGE_TITLE;?></title>
