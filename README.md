@@ -1,4 +1,4 @@
-# pwp-korigan-payne
+# Korigan Payne
 Personal Website
 
 https://koriganpayne.com
