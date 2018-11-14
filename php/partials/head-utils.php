@@ -68,10 +68,6 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<script src="<?php echo $PREFIX;?>js/jquery.waypoints.min.js"></script>
 
-		<!-- My JavaScript -->
-
-		<script src="<?php echo $PREFIX;?>js/main.js"></script>
-
 		<!-- My Favicon -->
 
 		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $PREFIX;?>images/favicon/apple-touch-icon.png"/>

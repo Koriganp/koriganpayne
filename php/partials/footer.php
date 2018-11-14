@@ -14,5 +14,10 @@
 
 		<script src="<?php echo $PREFIX;?>js/simplescrollup.js"></script>
 
-	</body>
+		<!-- My JavaScript -->
+
+		<script src="<?php echo $PREFIX;?>js/main.js"></script>
+
+
+		</body>
 </html>
