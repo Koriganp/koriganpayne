@@ -1,0 +1,35 @@
+/*Change font for page and make universal for devices*/
+html {
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+}
+
+/*center main headings and increase size*/
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	padding: 2rem 20rem;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resize {
+	width: 60%;
+}
+
+.column {
+	float: right;
+	width: 50%;
+}

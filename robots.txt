@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /portfolio/sample-sites/
+
+Sitemap: https://koriganpayne.com/sitemap.xml

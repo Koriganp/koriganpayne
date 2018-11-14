@@ -1,0 +1,258 @@
+/********************/
+/*Universal for site*/
+/********************/
+
+/*change font for site*/
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+	background-color: white;
+}
+/*Set height for site*/
+body, html {
+	height: 100%;
+}
+
+/*Scroll up button*/
+.simplescrollup__button {
+	position: fixed;
+	bottom: 3rem;
+	right: 3rem;
+	transition: 1s all;
+	z-index: 10000;
+	color: dimgray;
+}
+
+.simplescrollup__button--show { transform: translateX(0); }
+
+.simplescrollup__button--hide { transform: translateX(100px); }
+
+/*Parallax background effects*/
+
+.parallax-content {
+	position: relative;
+	overflow: hidden;
+	height: 80vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.parallax {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.parallax:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	z-index: -1;
+	background-position: center top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+/*xs to lg*/
+@media(min-width: 769px){
+	.parallax-content {
+		background-image: url(../images/argyle-hills-still.jpg);
+	}
+	.parallax-content-2 {
+		background-image: url(../images/argyle-hills-thin-red-still.jpg);
+	}
+	.parallax-content-3 {
+		background-image: url(../images/argyle-hills-red-still.jpg);
+	}
+	.parallax-content-4 {
+		background-image: url(../images/argyle-hills-blur-still.jpg);
+	}
+	.content {
+		color: white;
+		font-size: 12rem;
+		line-height: 35rem;
+		font-weight: 700;
+		text-align: center;
+		text-shadow: 0 0 1rem gray;
+	}
+	.port {
+		color: white;
+		font-size: 4rem;
+		font-weight: 500;
+		text-align: center;
+		text-shadow: 0 0 1rem gray;
+		position: relative;
+		bottom: 0;
+	}
+	.port-1 {
+		color: white;
+		font-size: 6rem;
+		font-weight: 500;
+		text-align: center;
+		text-shadow: 0 0 1.5rem gray;
+	}
+}
+
+/*xs to 0*/
+@media(max-width: 768px){
+	.parallax-content .parallax:before {
+		background-image: url(../images/argyle-hills-still.jpg);
+	}
+	.parallax-content-2 .parallax:before {
+		background-image: url(../images/argyle-hills-thin-red-still.jpg);
+	}
+	.parallax-content-3 .parallax:before {
+		background-image: url(../images/argyle-hills-red-still.jpg);
+	}
+	.parallax-content-4 .parallax:before {
+		background-image: url(../images/argyle-hills-blur-still.jpg);
+	}
+	.content {
+		color: white;
+		font-size: 4rem;
+		line-height: 30rem;
+		font-weight: 700;
+		text-align: center;
+		text-shadow: 0 0 1rem gray;
+	}
+	.port {
+		color: white;
+		font-size: 2.5rem;
+		line-height: 6rem;
+		font-weight: 500;
+		text-align: center;
+		position: relative;
+		bottom: 0;
+	}
+	.port-1 {
+		color: white;
+		font-size: 4rem;
+		line-height: 6rem;
+		font-weight: 500;
+		text-align: center;
+	}
+}
+
+/******************/
+/*Home page styles*/
+/******************/
+
+/*Resize scrolling bar*/
+.darkness {
+	background-color: black;
+}
+
+/*Center images in carousel*/
+.ma {
+	margin-left: 25%;
+}
+
+/*Move carousel indicators under images*/
+.carousel-indicators {
+	bottom:-3.125rem;
+}
+.carousel-inner {
+	margin-bottom:3.125rem;
+}
+
+/*********************/
+/*Contact Page Styles*/
+/*********************/
+
+/*Background*/
+.bg {
+	/* The image used */
+	background-image: url(../images/argyle-hills-blur-still.jpg);
+
+	/* height */
+	height: 80%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/***********************/
+/*Portfolio Page Styles*/
+/***********************/
+
+/*remove backgrounds from content elements*/
+.blank {
+	background: rgba(63, 127, 191, 0);
+}
+
+/*Center and align text to images*/
+
+#wordPressText {
+	padding-top: 10rem;
+}
+
+#wordPress {
+	width: 80vw;
+}
+
+#law {
+	width: 80vw;
+}
+
+#lawText {
+	padding-top: 10rem;
+}
+
+#landscapeText {
+	padding-top: 10rem;
+}
+
+#landscape {
+	width: 80vw;
+}
+
+#restaurant {
+	width: 80vw;
+}
+
+#restaurantText {
+	padding-top: 10rem;
+}
+
+#csquareText {
+	padding-top: 8rem;
+}
+
+#csquare {
+	width: 80vw;
+}
+
+.fit {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+.narrow {
+	height: 20rem;
+}
+
+.move-down {
+	height: 100%;
+	margin-top: 7.5rem;
+}
+
+.move-down-more {
+	height: 100%;
+	margin-top: 11.5rem;
+}
