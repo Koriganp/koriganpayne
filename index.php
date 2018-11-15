@@ -27,7 +27,7 @@ require_once("php/partials/head-utils.php");
 		<p class="lead text-center">Web Developer</p>
 	</div>
 
-	<!-- About content -->
+	<!-- About Content -->
 
 	<section class="p-5 mt-0 darkness text-light">
 		<div class="container">
@@ -52,7 +52,7 @@ require_once("php/partials/head-utils.php");
 		</div>
 	</section>
 
-	<!-- Middle content -->
+	<!-- Middle Content -->
 
 	<div class="jumbotron jumbotron-fluid bg-light m-0">
 		<div class="container">
@@ -78,7 +78,7 @@ require_once("php/partials/head-utils.php");
 		</div>
 	</section>
 
-	<!-- End content -->
+	<!-- End Content -->
 
 	<section class="p-5 mt-0 darkness text-light">
 		<div class="container-fluid">
